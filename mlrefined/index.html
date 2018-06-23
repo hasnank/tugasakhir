@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<!-- always use https, not http --> 
+		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+		<link rel="stylesheet" href="html/CSS/home.css">
+		
+		<!-- need this for navigation menu --> 
+		<link rel="stylesheet" href="html/CSS/navbar.css">
+		 
+		<!-- subscription -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="html/CSS/subscription.css">
+		 
+	</head>
+		 
+
+	<body>
+
+	
+		<!-- Navigation menu -->	
+
+		<div class ="navmenu">
+    		<ul>
+        		<li class="menu-item active"><a href="index.html"><span class="menu-item">HOME</span></a></li>
+        	<!--	<li class="menu-item"><a href="html/pages/presentations.html"><span class="menu-item">PRESENTATIONS</span></a></li>
+        		<li class="menu-item"><a href="html/pages/gallery.html"><span class="menu-item">GALLERY</span></a></li> -->
+        		<li class="menu-item"><a href="html/pages/random_thoughts.html"><span class="menu-item">RANDOM THOUGHTS</span></a></li>
+        		<li class="menu-item"><a href="html/pages/about.html"><span class="menu-item">ABOUT</span></a></li>
+   			</ul>
+		</div>
+		
+		<!-- still image background
+		<div class="bg">
+		</div>
+		-->		
+		
+		<video autoplay muted loop id="myVideo" src="html/vids/background_v1.mov"></video>
+		<script>
+		var vid = document.getElementById("myVideo");
+		vid.playbackRate = 1.5;
+		</script>
+		
+		<!-- <p id="title">Machine Learning Refined</p> -->
+		<br/><br/>
+		<p class="sub-title"> This is a blog about machine learning and deep learning fundamentals built by the authors of the
+			textbook <a class="redlink" target="_blank" href="http://mlrefined.com">Machine Learning Refined</a>
+			published by Cambridge University Press. The posts, cut into short series, use careful writing and interactive coding widgets
+			to provide an intuitive and playful way to learn about core concepts in AI - from some of the most basic to the most advanced.  
+		<br/><br/>
+			Each and every post here is a Python Jupyter notebook, prettied up for the web, that you can download and run on your own machine
+			by pulling our <a class="redlink" target="_blank" href="https://github.com/jermwatt/mlrefined">GitHub repo</a>.  
+		</p>
+		<br/><br/>
+		<hr style="display:block; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 240px; margin-right: 240px; border-style: inset; border-width: 1px;"/>
+		<br/>
+		
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter03" />   
+  			<label for="chapter03"><span>CHAPTER 3. Derivatives and automatic differentiation</span></label>
+  			<div class="eleven_col">
+  				<div class="description">
+    				<p><strong>3.1. </strong> What are derivatives? <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_1_what_are_derivatives.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.2. </strong> Derivatives at a point and the numerical differentiator <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_2_numerical_differentiator.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>3.3. </strong> Derivative equations and hand computations <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_3_derivative_equations.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>3.4. </strong> Automatic differentiation - the forward mode <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_4_AD_forward_mode.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.5. </strong> Higher order derivatives <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_5_higher_order.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.6. </strong> Taylor series <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_6_Taylor_Series.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.7. </strong> Derivatives of multi-input functions <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_7_multi_input_derivatives.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.8. </strong> Effective gradient computation <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.9. </strong> The Hessian and higher order derivatives <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_9_higher_multivariate.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.10. </strong> Multi-input Taylor Series <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_10_multi_taylor_series.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>3.11. </strong> Getting to know autograd: your professional grade automatic differentiator <a target="_blank" class="sublink-active" href="blog_posts/3_Automatic_differentiation/3_11_getting_to_know_autograd.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+  				</div>
+  			</div>
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter05" />
+  			<label for="chapter05"><span>CHAPTER 5. Optimization: zero order methods </span></label>
+  			<div class="six_col">
+  				<div class="description">
+    				<p><strong>5.0. </strong> Motivation for mathematical optimization<a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_0_Motivation.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/Mathematical_Optimization_presentations/Part_1_motivation_random_search.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>5.1. </strong> The zero order condition for optimality <a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_1_zero_order_condition.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.2. </strong> Global optimization methods <a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_2_Global_optimization_methods.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.3. </strong> Local optimization methods <a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_3_Local_optimization_methods.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.4. </strong> Random search<a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_4_Random_search.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.5. </strong> Coordinate search and descent<a target="_blank" class="sublink-active" href="blog_posts/5_Zero_order_methods/5_5_Coordinate_search_and_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>  				
+  				</div>
+  			</div>
+		</div>
+	
+	
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter06" checked/>   
+  			<label for="chapter06"><span>CHAPTER 6. Optimization: first order methods</span></label>
+  			<div class="seven_col">
+  				<div class="description">
+    				<p><strong>6.0. </strong> Introduction <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_0_Introduction.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.1. </strong> The first order optimality condition <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_1_First_order_condition.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.2. </strong> The geometric anatomy of lines and hyperplanes <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_2_Hyperplane_anatomy.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/6_First_order_methods/6_2_Hyperplane_anatomy.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>6.3. </strong> The geometric anatomy of first order Taylor series approximations <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_3_tangent_plane_anatomy.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/6_First_order_methods/6_3_tangent_plane_anatomy.slides.html#/">&nbsp; slides</a></p>
+  				    <p><strong>6.4. </strong> Gradient descent <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_4_Gradient_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/6_First_order_methods/6_4_Gradient_descent.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>6.5. </strong> Conservative steplength rules <a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_5_Conservative_steplength_rules.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.6. </strong> First order coordinate descent methods<a target="_blank" class="sublink-active" href="blog_posts/6_First_order_methods/6_6_Coordinate_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+
+  				</div>
+  			</div>	
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter07" checked/>   
+  			<label for="chapter07"><span>CHAPTER 7. Optimization: second order methods</span></label>
+  			<div class="eight_col">	
+  				<div class="description">
+    				<p><strong>7.1. </strong> Quadratic functions <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_1_Quadratic_functions.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.2. </strong> Second order derivatives and curvature <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_2_Second_derivatives_curvature.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.3. </strong> Newton's method <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_3_Newtons_method.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.4. </strong> Regularization, Newton's method, and non-convex functions<a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_4_Newtons_regularized.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.5. </strong> The first order derivation of Newton's method <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_5_Newtons_firstorder.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.6. </strong> Quasi-Newton methods <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_6_Quasi_newton_methods.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.7. </strong> Coordinate descent <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.8. </strong> The second order optimality condition <a target="_blank" class="sublink-active" href="blog_posts/7_Second_order_methods/7_8_Second_order_condition.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>  				
+  				</div>
+			</div>
+		</div>		
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter08" checked/>   
+  			<label for="chapter08"><span>CHAPTER 8. Linear regression </span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>8.1. </strong> Least squares linear regression <a target="_blank" class="sublink-active" href="blog_posts/8_Linear_regression/8_1_Least_squares_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.2. </strong> The probabilistic perspective on Least Squares linear regression <a target="_blank" class="sublink-active" href="blog_posts/8_Linear_regression/8_2_Probabilistic_least_squares.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.3. </strong> Least absolute deviations linear regression <a target="_blank" class="sublink-active" href="blog_posts/8_Linear_regression/8_3_Least_absolute_deviations.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.4. </strong> Feature scaling via standard normalization <a target="_blank" class="sublink-active" href="blog_posts/8_Linear_regression/8_4_feature_scaling.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/8_Linear_regression/8_4_feature_scaling_SLIDES.slides.html">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+		
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter09" checked/>   
+  			<label for="chapter09"><span>CHAPTER 9. Linear two class classification </span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>9.1. </strong> Logistic regression <a target="_blank" class="sublink-active" href="blog_posts/9_Linear_twoclass_classification/9_1_Logistic_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/courses/deep_learning/Lecture_3_logistic_regression.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>9.2. </strong> The perceptron <a target="_blank" class="sublink-active" href="blog_posts/9_Linear_twoclass_classification/9_2_Perceptron.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.3. </strong> Support vector machines <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.4. </strong> Feature scaling via standard normalization <a target="_blank" class="sublink-active" href="blog_posts/9_Linear_twoclass_classification/9_4_Feature_scaling.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+
+
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter10" checked/>   
+  			<label for="chapter10"><span>CHAPTER 10. Linear multiclass classification </span></label>
+  			<div class="three_col">	
+  				<div class="description">
+    				<p><strong>10.1. </strong> One-versus-All classification <a target="_blank" class="sublink-active" href="blog_posts/10_Linear_multiclass_classification/10_1_One_versus_all.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/courses/deep_learning/Lecture_5_one_versus_all.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>10.2. </strong> Multiclass softmax classification <a target="_blank" class="sublink-active" href="blog_posts/10_Linear_multiclass_classification/10_2_Multiclass_classification.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/courses/deep_learning/Lecture_6_multiclass_classification.slides.html#/">&nbsp; slides</a></p>
+    				<p><strong>10.3. </strong> Feature scaling via standard normalization <a target="_blank" class="sublink-active" href="blog_posts/10_Linear_multiclass_classification/10_3_Feature_scaling.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+
+
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter11" checked/>   
+  			<label for="chapter11"><span>CHAPTER 11. Linear unsupervised learning </span></label>
+  			<div class="six_col">
+  				<div class="description">
+    				<p><strong>11.1. </strong> Fixed spanning sets, orthonormality, and projections <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_1_Spanning_sets_orthonormality_projections.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.2. </strong> Principal Component Analysis and the Autoencoder <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_2_Principal_Component_Analysis.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+        	
+          	<p><strong>11.3. </strong> Feature scaling via PCA sphereing <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_3_PCA_sphereing.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+
+
+    				<p><strong>11.4. </strong> Recommender Systems <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_4_Recommender_Systems.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.5. </strong> K-means clustering <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_5_K_means_clustering.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.6. </strong> General matrix factorization techniques <a target="_blank" class="sublink-active" href="blog_posts/11_Linear_unsupervised_learning/11_6_matrix_factorization.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+
+
+
+
+    <div class="chapters-container">
+        <input type="checkbox" name="chapters" id="chapter12" checked/>   
+        <label for="chapter12"><span>CHAPTER 12. Introduction to nonlinear learning</span></label>
+        <div class="nine_col">
+          <div class="description">
+            <p><strong>12.1. </strong> Features, functions, and nonlinear regression <a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_1_Introduction_nonlinear_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/12_Nonlinear_intro/12_1_Introduction_nonlinear_regression_SLIDES.slides.html#/">&nbsp; slides</a></p>
+            <p><strong>12.2. </strong> Features, functions, and nonlinear classification <a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_2_Introduction_nonlinear_classification.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/12_Nonlinear_intro/12_2_Introduction_nonlinear_classification_SLIDES.slides.html#/">&nbsp; slides</a></p>
+            <p><strong>12.3. </strong> Features, functions, and nonlinear unsupervised learning <a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_3_Introduction_nonlinear_unsupervised.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/12_Nonlinear_intro/12_3_Introduction_nonlinear_unsupervised_SLIDES.slides.html#/">&nbsp;  slides</a></p>
+
+             <p><strong>12.4. </strong> Automating nonlinear learning<a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_4_Automating_nonlinear_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/12_Nonlinear_intro/12_4_Catalogs_of_functions_SLIDES.slides.html#/">&nbsp; slides</a></p>
+
+            <p><strong>12.5. </strong> Universal approximation<a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_5_Universal_approximation.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/12_Nonlinear_intro/12_4_Catalogs_of_functions_SLIDES.slides.html#/">&nbsp; slides</a></p>
+
+            <p><strong>12.6. </strong> Validation error <a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_6_Validation_error.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+
+
+            <p><strong>12.7. </strong> Model search via Boosting <a target="_blank" class="sublink-active" href="blog_posts/12_Nonlinear_intro/12_7_Boosting.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+
+            <p><strong>12.8. </strong> Model search via Regularization <a target="_blank" class="sublink-inactive" href="blog_posts/12_Nonlinear_intro/12_7_Boosting.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+
+            <p><strong>12.9. </strong> Ensembling <a target="_blank" class="sublink-inactive" href="blog_posts/12_Nonlinear_intro/12_7_Boosting.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+          </div>
+      </div>
+    </div>
+    
+    
+    <div class="chapters-container">
+        <input type="checkbox" name="chapters" id="chapter13" checked/>   
+        <label for="chapter13"><span>CHAPTER 13. Multi-layer perceptrons (MLPs) </span></label>
+        <div class="eight_col">
+          <div class="description">
+            <p><strong>13.1. </strong> Introduction to multi-layer perceptrons <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_1_Multi_layer_perceptrons.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/13_Multilayer_perceptrons/13_1_Multi_layer_perceptrons_SLIDES.slides.html#/">&nbsp; slides</a></p>
+            <p><strong>13.2. </strong> Batch normalization <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_2_Batch_normalization.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+            <p><strong>13.3. </strong> Normalized gradient descent <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_3_Normalized_gradient_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+            <p><strong>13.4. </strong> Momentum methods <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_4_Momentum_methods.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/13_Multilayer_perceptrons/13_4_Momentum_trick_SLIDES.slides.html#/">&nbsp; slides</a></p>
+            <p><strong>13.5. </strong> Regularization <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_5_regularization.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/13_Multilayer_perceptrons/13_5_regularization_SLIDES.slides.html#/">&nbsp; slides</a></p>
+            <p><strong>13.6. </strong> Stochastic and mini-batch gradient descent <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_6_Stochastic_and_minibatch_gradient_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+            <p><strong>13.7. </strong> General steepest descent <a target="_blank" class="sublink-active" href="blog_posts/13_Multilayer_perceptrons/13_7_General_steepest_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+            <p><strong>13.8. </strong> Early stopping <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+          </div>
+      </div>
+    </div>
+    
+	<div class="chapters-container">
+        <input type="checkbox" name="chapters" id="chapter14" checked/>   
+        <label for="chapter14"><span>CHAPTER 14. Convolutional Neural Networks (CNNs) </span></label>
+        <div class="seven_col">
+          <div class="description">
+
+            <p><strong>14.1. </strong> The convolution operation <a target="_blank" class="sublink-active" href="blog_posts/14_Convolutional_networks/14_1_The_convolution_operation.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/Convolutional_Networks/14_1_The_convolution_operation_SLIDES.slides.html#/">&nbsp; slides</a></p>
+
+            <p><strong>14.2. </strong> Edge histogram based features <a target="_blank" class="sublink-active" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-active" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p>       
+
+            <p><strong>14.3. </strong> Single layer convolutional neural networks <a target="_blank" class="sublink-inactive" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p>
+
+            <p><strong>14.4. </strong> Deep convolutional neural networks <a target="_blank" class="sublink-inactive" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p>   
+
+            <p><strong>14.5. </strong> Transfer learning <a target="_blank" class="sublink-inactive" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p> 
+
+            <p><strong>14.6. </strong> Adversarial examples and the fragility of convolutional networks <a target="_blank" class="sublink-inactive" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p>   
+
+            <p><strong>14.7. </strong> Data normalization schemes for images <a target="_blank" class="sublink-inactive" href="blog_posts/14_Convolutional_networks/14_2_Edge_histogram_based_features.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_2_Edge_histogram_based_features_SLIDES.slides.html#/">&nbsp; slides</a></p>   
+
+          </div>
+      </div>
+    </div>
+
+      <div class="chapters-container">
+        <input type="checkbox" name="chapters" id="chapter14" checked/>   
+        <label for="chapter15"><span>CHAPTER 15. Recurrent Neural Networks (RNNs) </span></label>
+        <div class="eight_col">
+          <div class="description">
+            <p><strong>15.1. </strong> Introduction  <a target="_blank" class="sublink-active" href="blog_posts/15_Recurrent_Networks/15_1_Introduction.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/14_1_The_convolution_operation_SLIDES.slides.html#/">&nbsp; slides</a></p>
+
+            <p><strong>15.2. </strong> Fixed Order Dynamic Systems <a target="_blank" class="sublink-active" href="blog_posts/15_Recurrent_Networks/15_2_Fixed_Order.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>    
+
+            <p><strong>15.3. </strong> Recurrence Relations <a target="_blank" class="sublink-active" href="blog_posts/15_Recurrent_Networks/15_3_Recurrence_Relations.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>  
+
+            <p><strong>15.4. </strong> Variable order dynamic systems <a target="_blank" class="sublink-active" href="blog_posts/15_Recurrent_Networks/15_4_Variable_Order.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p> 
+
+            <p><strong>15.5. </strong> Autoregressive modeling <a target="_blank" class="sublink-inactive" href="blog_posts/15_Recurrent_Networks/15_2_Fixed_Order.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>  
+
+            <p><strong>15.6. </strong> Recurrent networks <a target="_blank" class="sublink-inactive" href="blog_posts/15_Recurrent_Networks/15_2_Memoryless.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>  
+
+            <p><strong>15.7. </strong> Optimization tricks for recurrent networks <a target="_blank" class="sublink-inactive" href="blog_posts/15_Recurrent_Networks/15_2_Memoryless.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>  
+ 
+            <p><strong>15.8. </strong> Advanced architectures <a target="_blank" class="sublink-inactive" href="blog_posts/15_Recurrent_Networks/15_2_Memoryless.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="presentations/Convolutional_Networks/.slides.html#/">&nbsp; slides</a></p>  
+          </div>
+      </div>
+    </div>
+
+
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter18" checked/>   
+  			<label for="chapter18"><span>CHAPTER 18. Reinforcement learning foundations</span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>18.1. </strong> Fundamentals of Reinforcement Learning <a target="_blank" class="sublink-active" href="blog_posts/18_Reinforcement_Learning_Foundations/18_1_Fundamentals_of_reinforcement_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.2. </strong> Q-Learning <a target="_blank" class="sublink-active" href="blog_posts/18_Reinforcement_Learning_Foundations/18_2_Q_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.3. </strong> Q-Learning enhancements <a target="_blank" class="sublink-active" href="blog_posts/18_Reinforcement_Learning_Foundations/18_3_Q_learning_enhancements.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.4. </strong> On generalizability of Reinforcement Learning <a target="_blank" class="sublink-active" href="blog_posts/18_Reinforcement_Learning_Foundations/18_4_On_generalizability_of_reinforcement_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+
+		
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+		<!-- uncomment subscription
+		<!- - subscription button - ->
+  		<form action="https://formspree.io/rzbrhn@gmail.com" method="POST">
+    		<input type="email" name="email" placeholder="Enter your email to get notified when new posts are published" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email to get notified when new posts are published'" autocomplete="off">
+    		<button type="submit" value="Send">Subscribe &nbsp;<i class="fa fa-envelope-o"></i></button>
+ 		</form>	
+ 		-->
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+		<script>
+			$(document).ready(function(){
+				$('.hover').hover(function(){
+					$(this).addClass('flip');
+					},function(){
+						$(this).removeClass('flip');
+					});
+				});
+		</script>
+		
+	
+	</body>
+</html>

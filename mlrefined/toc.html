@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<!-- always use https, not http --> 
+		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+		<link rel="stylesheet" href="html/CSS/home.css">
+		
+		<!-- need this for navigation menu --> 
+		<link rel="stylesheet" href="html/CSS/navbar.css">
+		 
+		<!-- subscription -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="html/CSS/subscription.css">
+		 
+	</head>
+		 
+
+	<body>
+
+	
+		<!-- Navigation menu -->	
+
+		<div class ="navmenu">
+    		<ul>
+        		<li class="menu-item active"><a href="toc.html"><span class="menu-item">HOME</span></a></li>
+        	<!--	<li class="menu-item"><a href="html/pages/presentations.html"><span class="menu-item">PRESENTATIONS</span></a></li>
+        		<li class="menu-item"><a href="html/pages/gallery.html"><span class="menu-item">GALLERY</span></a></li> -->
+        		<li class="menu-item"><a href="html/pages/about_new.html"><span class="menu-item">ABOUT</span></a></li>
+   			</ul>
+		</div>
+		
+		<!-- still image background
+		<div class="bg">
+		</div>
+		-->		
+		
+		<video autoplay muted loop id="myVideo" src="html/vids/background_v1.mov"></video>
+		<script>
+		var vid = document.getElementById("myVideo");
+		vid.playbackRate = 1.5;
+		</script>
+		
+		<!-- <p id="title">Machine Learning Refined</p> -->
+		<br/><br/>
+		<p class="sub-title"> This is a blog about machine learning and deep learning fundamentals built by the authors of the
+			textbook <a class="redlink" target="_blank" href="http://mlrefined.com">Machine Learning Refined</a>
+			published by Cambridge University Press. The posts, cut into short series, use careful writing and interactive coding widgets
+			to provide an intuitive and playful way to learn about core concepts in AI - from some of the most basic to the most advanced.  
+		<br/><br/>
+			Each and every post here is a Python Jupyter notebook, prettied up for the web, that you can download and run on your own machine
+			by pulling our <a class="redlink" target="_blank" href="https://github.com/jermwatt/mlrefined">GitHub repo</a>.  
+		</p>
+		<br/><br/>
+		<hr style="display:block; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 240px; margin-right: 240px; border-style: inset; border-width: 1px;"/>
+		<br/>
+		
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter01" checked />   
+  			<label for="chapter01"><span>CHAPTER 1. Introduction to machine learning, deep learning, and reinforcement </span></label>
+  			<div class="three_col">
+  				<div class="description">
+    				<p><strong>1.1. </strong> Machine learning, a framework for learning from data <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a> </p>
+    				<p><strong>1.2. </strong> Introduction to problem types in machine learning coupled with overview of modern applications <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>1.3. </strong> The basic building blocks of machine learning and how they all fit together <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+  			</div>
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter02" checked/>
+  			<label for="chapter02"><span>CHAPTER 2. Computational linear algebra and statistics</span></label>
+  			<div class="four_col">
+  				<div class="description">
+    				<p><strong>2.1. </strong> Vectors and matrices, vector and matrix norms, linear functions and matrices <a target="_blank" class="sublink-active" href="html/pages/topics/Computational_Linear_Algebra.html m">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>2.2. </strong> Eigenvalues, eigenvectors and the power method <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>2.3. </strong> Fundamentals of probability and statistics, discrete and continuous distributions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>2.4. </strong> Maximum likelihood approach and Bayes’ rule <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+  			</div>
+		</div>
+	
+	
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter03" checked/>   
+  			<label for="chapter03"><span>CHAPTER 3. Computational calculus</span></label>
+  			<div class="four_col">
+  				<div class="description">
+    				<p><strong>3.1. </strong> The derivative and computation graphs <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>3.2. </strong> Automatic differentiation part 1: the forward method <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>3.3. </strong> Taylor series approximation <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>3.4. </strong> Vector valued derivatives <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+  			</div>	
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter04" checked/>   
+  			<label for="chapter04"><span>CHAPTER 4. Mathematical Optimization I: Gradient descent</span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>4.1. </strong> Unconstrained optimality conditions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>4.2. </strong> Naive and local search methods <a target="_blank" class="sublink-active" href="blog_posts/Mathematical_Optimization/Part_1_motivation_random_search.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>4.3. </strong> Gradient descent <a target="_blank" class="sublink-active" href="blog_posts/Mathematical_Optimization/Part_2_gradient_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>4.4. </strong> Step-length rules, backtracking line search <a target="_blank" class="sublink-active" href="blog_posts/Mathematical_Optimization/Part_3_conservative_steplength_rules.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>		
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter05" checked/>   
+  			<label for="chapter05"><span>CHAPTER 5. Linear regression </span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>5.1. </strong> Linear regression: Least Squares and Least Absolute Deviations <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_1_Linear_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.2. </strong> The probabilistic perspective on linear regression <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_1_Linear_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.3. </strong> Performance metrics for regression <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>5.4. </strong> Feature selection and regularization <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+		
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter06" checked/>   
+  			<label for="chapter06"><span>CHAPTER 6. Linear two-class classification </span></label>
+  			<div class="seven_col">
+  				<div class="description">
+    				<p><strong>6.1. </strong> From linear to logistic regression <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_2_logistic_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.2. </strong> Logistic regression: geometric and probabilistic perspectives <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_2_logistic_regression.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.3. </strong> The classic perceptron and support vector machines <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_3_Perceptron.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.4. </strong> A unified view of two-class classification <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_4_support_vector_machines.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.5. </strong> Performance metrics for classification <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.6. </strong> Principles of feature engineering <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>6.7. </strong> General data pre-processing techniques <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter07" checked/>   
+  			<label for="chapter07"><span>CHAPTER 7. Linear multiclass classification</span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>7.1. </strong> One-versus-All classification <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_5_One_versus_all.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.2. </strong> Multiclass softmax classification: geometric and probabilistic perspectives <a target="_blank" class="sublink-active" href="blog_posts/Linear_Supervised_Learning/Part_6_multiclass_classification.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.3. </strong> A unified view of multiclass classification <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>7.4. </strong> Performance metrics <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter08" checked/>   
+  			<label for="chapter08"><span>CHAPTER 8. Mathematical Optimization II: Algorithms for dealing with large datasets</span></label>
+  			<div class="five_col">	
+  				<div class="description">
+    				<p><strong>8.1. </strong> Feature scaling and the “long narrow valley” problem with gradient descent <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.2. </strong> Scaling with data, stochastic gradient descent <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.3. </strong> Newton’s method and Quasi-Newton methods <a target="_blank" class="sublink-active" href="blog_posts/Mathematical_Optimization/Part_5_Newtons_method.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.4. </strong> Coordinate descent methods <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>8.5. </strong> Projections and projection methods <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>	
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter09" checked/>   
+  			<label for="chapter09"><span>CHAPTER 9. Linear dimension reduction techniques</span></label>
+  			<div class="five_col">	
+  				<div class="description">
+    				<p><strong>9.1. </strong> Linear representations of data <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.2. </strong> Principal component analysis (PCA): geometric and probabilistic perspectives <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.3. </strong> K-means clustering <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.4. </strong> Recommender systems <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>9.5. </strong> The general matrix factorization framework <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter10" checked/>   
+  			<label for="chapter10"><span>CHAPTER 10. Introduction to nonlinear learning</span></label>
+  			<div class="seven_col">	
+  				<div class="description">
+    				<p><strong>10.1. </strong> The search for natural laws <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.2. </strong> Geometric feature design done ‘by eye’ <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.3. </strong> Introduction to tools of the trade: kernel, neural network, and tree bases <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.4. </strong> The ideal scenario versus reality <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.5. </strong> Fixed versus adjustable basis functions and approximation <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.6. </strong> The gist of cross-validation <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>10.7. </strong> Which basis works best? <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter11" checked/>   
+  			<label for="chapter11"><span>CHAPTER 11. Kernel methods</span></label>
+  			<div class="six_col">	
+  				<div class="description">
+    				<p><strong>11.1. </strong> Motivation and basic examples <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.2. </strong> Failure to scale in the dimension of features <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.3. </strong> The kernel trick via the fundamental theorem of Linear algebra <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.4. </strong> Kernelizing supervised and unsupervised problems <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.5. </strong> Kernels as similarity matrices <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>11.6. </strong> The failure to scale with large datasets <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter12" checked/>   
+  			<label for="chapter12"><span>CHAPTER 12. Tree-based methods</span></label>
+  			<div class="five_col">	
+  				<div class="description">
+    				<p><strong>12.1. </strong> Recursively defined tree-based functions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>12.2. </strong> Random forests <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>12.3. </strong> Greedy coordinate descent and the generic booster <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>12.4. </strong> Gradient boosting <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>12.5. </strong> Adaboost and logitboost <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>	
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter13" checked/>   
+  			<label for="chapter13"><span>CHAPTER 13. Multilayer perceptrons</span></label>
+  			<div class="six_col">	
+  				<div class="description">
+    				<p><strong>13.1. </strong> Computation graphs and the construction of endlessly complex functions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>13.2. </strong> Automatic differentiation part 2: the backward method (a.k.a. Backpropagation) <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>13.3. </strong> Designing generic deep networks recursively <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>13.4. </strong> Computation graphs, deep networks, and efficient computation <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>13.5. </strong> PCA and the autoencoder <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>13.6. </strong> Cross-validation by regularization, early stopping, and dropout <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>		
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter14" checked/>   
+  			<label for="chapter14"><span>CHAPTER 14. Mathematical Optimization III: Optimization tricks for multilayer perceptrons</span></label>
+  			<div class="seven_col">	
+  				<div class="description">
+    				<p><strong>14.1. </strong> Nonlinear features, feature scaling, and batch-normalization <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.2. </strong> Regularization and convexification <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.3. </strong> Momentum and gradient descent <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.4. </strong> Normalized gradient descent and non-convex functions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.5. </strong> General steepest descent methods <a target="_blank" class="sublink-active" href="blog_posts/Mathematical_Optimization/Part_4_general_steepest_descent.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.6. </strong> Stochastic and minibatch methods <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>14.7. </strong> Engineered first order methods for feedforward networks <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>	
+		</div>
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter15" checked/>   
+  			<label for="chapter15"><span>CHAPTER 15. Recurrent Neural Networks (RNNs)</span></label>
+  			<div class="seven_col">	
+  				<div class="description">
+    				<p><strong>15.1. </strong> The ‘knowledge versus data’ trade-off curve <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.2. </strong> Common examples of ordered data used in supervised learning <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.3. </strong> Recursive sequences and functions, Markov models <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.4. </strong> Basic and hidden recursive models <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.5. </strong> The simple Recurrent Neural Network <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.6. </strong> Learning long term dependencies, deficiencies of the simple RNN <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>15.7. </strong> Architectures for learning long term dependencies: the identity RNN, LSTM, and GRU <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>	
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter16" checked/>   
+  			<label for="chapter16"><span>CHAPTER 16. Convolutional Neural Networks (CNNs) - Part I</span></label>
+  			<div class="five_col">
+  				<div class="description">
+    				<p><strong>16.1. </strong> Spatially ordered data, images, and convolutions <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>16.2. </strong> Convolutions and their many applications to signal and image processing <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>16.3. </strong> Histogram Features for real data: convolution and pooling operations <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>16.4. </strong> Learning with fixed convolution kernels <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>16.5. </strong> Learnable kernels and convolutional networks <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>				
+		</div>
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter17" checked/>   
+  			<label for="chapter17"><span>CHAPTER 17. Convolutional Neural Networks (CNNs) - Part II </span></label>
+  			<div class="five_col">	
+  				<div class="description">
+    				<p><strong>17.1. </strong> Classic and modern convolutional architectures <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>17.2. </strong> Structured output regression and localization <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>17.3. </strong> Transfer learning <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>17.4. </strong> Unsupervised learning pre-training <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>17.5. </strong> Adversarial examples and the fragility of convolutional networks <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter18" checked/>   
+  			<label for="chapter18"><span>CHAPTER 18. Introduction to Reinforcement Learning </span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>18.1. </strong> Fundamental ideas and examples <a target="_blank" class="sublink-active" href="blog_posts/Reinforcement_Learning/Fundamentals_of_reinforcement_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.2. </strong> The basic Q-Learning algorithm <a target="_blank" class="sublink-active" href="blog_posts/Reinforcement_Learning/Q_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.3. </strong> Exploration-exploitation trade-off, short-term long-term reward <a target="_blank" class="sublink-active" href="blog_posts/Reinforcement_Learning/Q_learning_enhancements.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>18.4. </strong> Generalizability of Q-Learning <a target="_blank" class="sublink-active" href="blog_posts/Reinforcement_Learning/On_generalizability_of_reinforcement_learning.html">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>	
+		</div>
+		
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter19" checked/>   
+  			<label for="chapter19"><span>CHAPTER 19. Reinforcement Learning in large state spaces</span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>19.1. </strong> Challenges in scaling to large state spaces <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>19.2. </strong> Function approximators, Deep Q-Learning, and memory replay <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>19.3. </strong> Policy gradient method: geometric and probabilistic perspectives <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>19.4. </strong> Model based reinforcement and optimal control <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>		
+		</div>
+
+		<div class="chapters-container">
+  			<input type="checkbox" name="chapters" id="chapter20" checked/>   
+  			<label for="chapter20"><span>CHAPTER 20. Reinforcement Learning in large action spaces </span></label>
+  			<div class="four_col">	
+  				<div class="description">
+    				<p><strong>20.1. </strong> The limits of discretization <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>20.2. </strong> Deep Q-Learning in the continuous action domain <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>20.3. </strong> Actor-Critic methods <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+    				<p><strong>20.4. </strong> Approximate Q-Learning and the wire-fitting algorithm <a target="_blank" class="sublink-inactive" href="">&nbsp; text</a> <a target="_blank" class="sublink-inactive" href="">&nbsp; slides</a></p>
+  				</div>
+			</div>
+		</div>		
+
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+		<!-- uncomment subscription
+		<!- - subscription button - ->
+  		<form action="https://formspree.io/rzbrhn@gmail.com" method="POST">
+    		<input type="email" name="email" placeholder="Enter your email to get notified when new posts are published" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email to get notified when new posts are published'" autocomplete="off">
+    		<button type="submit" value="Send">Subscribe &nbsp;<i class="fa fa-envelope-o"></i></button>
+ 		</form>	
+ 		-->
+		
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+		<script>
+			$(document).ready(function(){
+				$('.hover').hover(function(){
+					$(this).addClass('flip');
+					},function(){
+						$(this).removeClass('flip');
+					});
+				});
+		</script>
+		
+	
+	</body>
+</html>
