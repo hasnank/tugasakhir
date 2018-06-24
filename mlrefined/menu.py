@@ -56,7 +56,7 @@ class menu():
         print ('the hazard reward is preset to ' + str(small_maze.hazard_reward))
         print ('the goal reward is preset to ' + str(small_maze.goal_reward))
         # create an instance of the q-learner
-        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze)
+        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start)
 
         # run q-learning
         qlearner.train(verbose = False, action_method = 'exploit',training_episodes = 100)
@@ -72,7 +72,7 @@ class menu():
         small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.height, goal=self.goal)
 
         # create an instance of the q-learner
-        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze)
+        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start)
         
         # run q-learning
         qlearner.train(validate=True, verbose = False, action_method = 'exploit', training_episodes = 1000)

@@ -243,7 +243,7 @@ class animator():
             return artist,
 
         # create animation object
-        anim = animation.FuncAnimation(fig, show_episode,frames=min(100,max_len), interval=min(100,max_len), blit=False)
+        anim = animation.FuncAnimation(fig, show_episode,frames=max_len, repeat_delay=100, blit=False)
         
         # set frames per second in animation
         # IPython_display.anim_to_html(anim,fps = min(100,max_len)/float(10))

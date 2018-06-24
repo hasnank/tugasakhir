@@ -21,6 +21,11 @@ class learner():
         # create start schedule for training / validation
         self.training_start_schedule = self.grid.training_start_schedule[:self.training_episodes]
         self.validation_start_schedule = self.grid.validation_start_schedule[:self.validation_episodes]
+
+        self.start_point = []
+
+        if 'start' in args:
+            self.start_point = args['start']
         
     ### Q-learning function - version 1 - take random actions ###
     def train(self,**args):
@@ -65,7 +70,8 @@ class learner():
             start = time.clock()
             
             # pick this episode's starting position
-            grid.agent = self.training_start_schedule[n]
+            grid.agent = self.start_point
+            print(grid.agent)
 
             # update Q matrix while loc != goal
             episode_history = []      # container for storing this episode's journey

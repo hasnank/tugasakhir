@@ -158,7 +158,7 @@ class environment():
        
         ### create custom colormap for gridworld plotting ###
         # color ordering: background, hazard, goal, agent, lights off
-        colors = [(0.9,0.9,0.9),(0,0,0), (1.0,0,0), (1/float(255),100/float(255),200/float(255)),(0,0,0), (0,1.0,0)]   
+        colors = [(0.9,0.9,0.9),(0,0,0), (1.0,0,0), (0,0,1.0), (0,1.0,0)]   
         self.my_cmap = LinearSegmentedColormap.from_list('colormapX', colors, N=100)
         
         # create training episodes
@@ -188,7 +188,7 @@ class environment():
         p_grid[self.goal[0]][self.goal[1]] = 2   
         p_grid[self.agent[0]][self.agent[1]] = 3
         if self.start:
-            p_grid[self.start[0]][self.start[1]] = 5   
+            p_grid[self.start[0]][self.start[1]] = 4   
         
         # check if lights off
         if 'lights' in args:
