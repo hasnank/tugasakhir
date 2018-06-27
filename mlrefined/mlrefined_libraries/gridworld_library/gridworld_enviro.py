@@ -154,7 +154,13 @@ class environment():
 
         ### initialize state index, Q matrix, and action choices ###
         # initialize action choices
-        self.action_choices = [[-1,0],[1,0],[0,-1],[0,1]]
+        self.isEight = args['isEight']
+        if self.isEight:
+            self.action_choices = [[-1,0],[1,0],[0,-1],[0,1],[-1,-1],[-1,1],[1,-1],[1,1]]
+        else:
+            self.action_choices = [[-1,0],[1,0],[0,-1],[0,1]]
+        
+
        
         ### create custom colormap for gridworld plotting ###
         # color ordering: background, hazard, goal, agent, lights off

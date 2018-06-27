@@ -13,14 +13,17 @@ class menu():
         self.width = 0
         self.goal = []
         self.start = []
+        self.var = IntVar()
+        self.isEight = 0
 
     def openFile(self, event):
+        print(self.isEight)
         self.file = askopenfilename(parent=root, title='Choose a file')
         self.name = os.path.basename(self.file)
         if self.file != '':
             hazard = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_hazards.csv", 'w')
-            goal = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_goal.csv", 'w')
-            start = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_start_schedule.csv", 'w')
+            # goal = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_goal.csv", 'w')
+            # start = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_start_schedule.csv", 'w')
             k=0
             for line in reversed(list(open(self.file))):
                  #print(line.rstrip())
@@ -31,22 +34,27 @@ class menu():
                         hazard.write(newLine)
                     elif letter == '1':
                         newLine = str(k) + "," + str(i) + "\n"
-                        start.write(newLine)
+                        # start.write(newLine)
                         self.start = [k,i]
                     elif letter == '5':
                         newLine = str(k) + "," + str(i) + "\n"
-                        goal.write(newLine)
+                        # goal.write(newLine)
                         self.goal = [k,i]
                     i=i+1
                 self.width = i - 1
                 k=k+1
             self.height = k
             hazard.close()
-            goal.close()
-            start.close()
+            # goal.close()
+            # start.close()
+
+    def changeEight(self):
+        self.isEight = self.var.get()
+        print(self.isEight)
+
 
     def run(self, event):
-        small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.width, goal=self.goal, start=self.start)
+        small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.width, goal=self.goal, start=self.start, training_episodes = 1000, isEight = self.isEight)
 
         # show the grid
         #small_maze.color_gridworld()
@@ -56,15 +64,15 @@ class menu():
         print ('the hazard reward is preset to ' + str(small_maze.hazard_reward))
         print ('the goal reward is preset to ' + str(small_maze.goal_reward))
         # create an instance of the q-learner
-        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start)
+        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name)
 
         # run q-learning
-        qlearner.train(verbose = False, action_method = 'exploit',training_episodes = 100)
+        qlearner.train(verbose = False, action_method = 'exploit', validate = True)
         # create instance of animator
         animator = lib.gridworld_animators.animator()
 
         ### animate training runs of one algorithm ###
-        animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [89,99])
+        animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
 
     def val(self, event):
         plt.style.use('ggplot')
@@ -97,6 +105,10 @@ menu = menu()
 chooseFileButton = Button(root, text="Choose File...")
 chooseFileButton.bind("<Button-1>", menu.openFile)
 chooseFileButton.pack()
+
+
+eightModeCheck = Checkbutton(root, text = "8-mode", variable = menu.var, command = menu.changeEight)
+eightModeCheck.pack()
 
 runButton = Button(root, text="Run")
 runButton.bind("<Button-1>", menu.run)

@@ -2,11 +2,13 @@ import numpy as np
 import pandas as pd
 import time
 import copy
+import os
 
 class learner():
     def __init__(self,**args):
         # get some crucial parameters from the input gridworld
         self.grid = args['gridworld']
+        self.name = args['name']
         
         # initialize q-learning params
         self.gamma = 1
@@ -14,7 +16,7 @@ class learner():
         self.exploit_param = 0.5
         self.action_method = 'exploit'
         self.training_episodes = self.grid.training_episodes
-        self.validation_episodes = 50
+        self.validation_episodes = 1
         self.training_start_schedule = []
         self.validation_start_schedule = []
            
@@ -23,6 +25,12 @@ class learner():
         self.validation_start_schedule = self.grid.validation_start_schedule[:self.validation_episodes]
 
         self.start_point = []
+        
+        if self.grid.isEight:
+            direction = 8
+        else:
+            direction = 4
+        self.out = open("result/" + self.name + "_" + str(self.training_episodes) + "eps_" + str(direction) + "dir.txt", 'w')
 
         if 'start' in args:
             self.start_point = args['start']
@@ -65,23 +73,33 @@ class learner():
         Q = np.zeros((self.grid.width*self.grid.height,len(self.grid.action_choices)))
         self.Q_history.append(copy.deepcopy(Q))  # save current Q (for visualization of progress)
 
+        
+
         ### start main Q-learning loop ###
         for n in range(self.training_episodes): 
             start = time.clock()
             
             # pick this episode's starting position
             grid.agent = self.start_point
-            print(grid.agent)
+            # print(grid.agent)
 
             # update Q matrix while loc != goal
             episode_history = []      # container for storing this episode's journey
             total_episode_reward = 0
+
+            print('EPISODE ' + str(n+1))
+            self.out.write('EPISODE ' + str(n+1) + '\n')
+            self.out.write('TRAIN: ')
+            
+            step = 0
+
             for step in range(self.max_steps):   
                 # update episode history container
                 episode_history.append(grid.agent)
                 
                 ### if you reach the goal end current episode immediately
                 if grid.agent == grid.goal:
+                    self.out.write('GOAL')
                     break
                 
                 # translate current agent location tuple into index
@@ -104,6 +122,9 @@ class learner():
                 
                 # update training reward
                 total_episode_reward+=r_k
+
+                step += 1
+
             # print out update if verbose set to True
             if 'verbose' in args:
                 if args['verbose'] == True:
@@ -117,18 +138,26 @@ class learner():
             self.training_reward.append(total_episode_reward)
             self.Q_history.append(copy.deepcopy(Q))  # save current Q (for visualization of progress)
 
-            print('EPISODE ' + str(n+1))
-            print('time: ' + str(stop-start))
-            print('reward: ' + str(total_episode_reward))
-            print('step: ' + str(len(episode_history)))
+            # print('time: ' + str((stop-start)*1000) + ' ms')
+            # print('reward: ' + str(total_episode_reward))
+            # print('step: ' + str(len(episode_history)))
+
+            self.out.write('\n')
+            self.out.write('time: ' + str((stop-start)*1000) + ' ms\n')
+            self.out.write('reward: ' + str(total_episode_reward) + '\n')
+            self.out.write('step: ' + str(step) + '\n')
+            
 
             ### store this episode's validation reward history
             if 'validate' in args:
                 if args['validate'] == True:
                     reward = self.validate(Q)
                     self.validation_reward.append(reward)
+            
 
         self.Q = Q  # make a global version
+
+        self.out.close()
             
         print ('q-learning algorithm complete')
        
@@ -139,20 +168,23 @@ class learner():
         
         # run validation episodes
         total_reward = []
+        self.out.write('VALIDATE: ')
 
         # run over validation episodes
         for i in range(self.validation_episodes):  
-
+            
             # get this episode's starting position
-            grid.agent = self.validation_start_schedule[i]
+            grid.agent = self.start_point
 
             # reward container for this episode
             episode_reward = 0
+            step_count = 0
 
             # run over steps in single episode
             for j in range(grid.max_steps):
                 ### if you reach the goal end current episode immediately
                 if grid.agent == grid.goal:
+                    self.out.write('GOAL')
                     break
                 
                 # translate current agent location tuple into index
@@ -170,9 +202,16 @@ class learner():
     
                 # update agent location
                 grid.agent = grid.state_index_to_tuple(state_index = s_k)
+
+                step_count += 1
                 
             # after each episode append to total reward
             total_reward.append(episode_reward)
 
+            self.out.write('\n')
+            self.out.write('reward: ' + str(episode_reward) + '\n')
+            self.out.write('step: ' + str(step_count) + '\n')
+            self.out.write('\n')
+       
         # return total reward
         return np.median(total_reward)
