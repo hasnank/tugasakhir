@@ -1,8 +1,10 @@
+from __future__ import division
+from statistics import mean
 import numpy as np
 import pandas as pd
 import time
 import copy
-import os
+import os, errno
 
 class learner():
     def __init__(self,**args):
@@ -30,10 +32,27 @@ class learner():
             direction = 8
         else:
             direction = 4
-        self.out = open("result/" + self.name + "_" + str(self.training_episodes) + "eps_" + str(direction) + "dir.txt", 'w')
+        
+        directory = "result/" + self.name + "_" + str(self.training_episodes) + "episode_" + str(direction) + "direction_rand1_0.5epsilon"
+
+        try:
+            os.makedirs(directory)
+        except OSError as e:
+            if e.errno != errno.EEXIST:
+                raise
+
+        self.out = open(directory + "/report.txt", 'w+')
+        self.out_stat = open(directory + "/stat.txt", 'w+')
+        self.out_csv = open(directory + "/report.csv", 'w+')
 
         if 'start' in args:
             self.start_point = args['start']
+
+        self.step_train = []
+        self.step_val = []
+        self.num_goal_train = 0
+        self.num_goal_val = 0
+
         
     ### Q-learning function - version 1 - take random actions ###
     def train(self,**args):
@@ -73,8 +92,8 @@ class learner():
         Q = np.zeros((self.grid.width*self.grid.height,len(self.grid.action_choices)))
         self.Q_history.append(copy.deepcopy(Q))  # save current Q (for visualization of progress)
 
+        self.out_csv.write('episode,train goal?,train time (ms),train reward,train step,val goal?,val reward,val step\n')
         
-
         ### start main Q-learning loop ###
         for n in range(self.training_episodes): 
             start = time.clock()
@@ -89,6 +108,7 @@ class learner():
 
             print('EPISODE ' + str(n+1))
             self.out.write('EPISODE ' + str(n+1) + '\n')
+            self.out_csv.write(str(n+1) + ',')
             self.out.write('TRAIN: ')
             
             step = 0
@@ -100,6 +120,8 @@ class learner():
                 ### if you reach the goal end current episode immediately
                 if grid.agent == grid.goal:
                     self.out.write('GOAL')
+                    self.out_csv.write('yes')
+                    self.num_goal_train += 1
                     break
                 
                 # translate current agent location tuple into index
@@ -146,6 +168,12 @@ class learner():
             self.out.write('time: ' + str((stop-start)*1000) + ' ms\n')
             self.out.write('reward: ' + str(total_episode_reward) + '\n')
             self.out.write('step: ' + str(step) + '\n')
+            self.step_train.append(step)
+
+            self.out_csv.write(',')
+            self.out_csv.write(str((stop-start)*1000) + ',')
+            self.out_csv.write(str(total_episode_reward) + ',')
+            self.out_csv.write(str(step) + ',')
             
 
             ### store this episode's validation reward history
@@ -157,7 +185,24 @@ class learner():
 
         self.Q = Q  # make a global version
 
+        self.out_stat.write('STATISTICS\n\n')
+        self.out_stat.write('TRAIN\n')
+        self.out_stat.write('minimum step: ' + str(min(self.step_train)) + '\n')
+        self.out_stat.write('maximum step: ' + str(max(self.step_train)) + '\n')
+        self.out_stat.write('average step: ' + str(mean(self.step_train)) + '\n')
+        self.out_stat.write('goal percentage: ' + str(self.num_goal_train/self.training_episodes) + '%\n')
+
+        self.out_stat.write('\n')
+
+        self.out_stat.write('VALIDATE\n')
+        self.out_stat.write('minimum step: ' + str(min(self.step_val)) + '\n')
+        self.out_stat.write('maximum step: ' + str(max(self.step_val)) + '\n')
+        self.out_stat.write('average step: ' + str(mean(self.step_val)) + '\n')
+        self.out_stat.write('goal percentage: ' + str(self.num_goal_val/self.training_episodes) + '%\n')
+
         self.out.close()
+        self.out_csv.close()
+        self.out_stat.close()
             
         print ('q-learning algorithm complete')
        
@@ -169,7 +214,7 @@ class learner():
         # run validation episodes
         total_reward = []
         self.out.write('VALIDATE: ')
-
+        
         # run over validation episodes
         for i in range(self.validation_episodes):  
             
@@ -185,6 +230,8 @@ class learner():
                 ### if you reach the goal end current episode immediately
                 if grid.agent == grid.goal:
                     self.out.write('GOAL')
+                    self.out_csv.write('yes')
+                    self.num_goal_val += 1
                     break
                 
                 # translate current agent location tuple into index
@@ -207,11 +254,16 @@ class learner():
                 
             # after each episode append to total reward
             total_reward.append(episode_reward)
+            self.step_val.append(step_count)
 
             self.out.write('\n')
             self.out.write('reward: ' + str(episode_reward) + '\n')
             self.out.write('step: ' + str(step_count) + '\n')
             self.out.write('\n')
-       
+
+            self.out_csv.write(',')
+            self.out_csv.write(str(episode_reward) + ',')
+            self.out_csv.write(str(step_count) + '\n')           
+        
         # return total reward
         return np.median(total_reward)

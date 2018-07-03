@@ -18,7 +18,8 @@ class menu():
 
     def openFile(self, event):
         print(self.isEight)
-        self.file = askopenfilename(parent=root, title='Choose a file')
+        dirr = os.getcwd() + '/environments'
+        self.file = askopenfilename(parent=root, initialdir = dirr, title='Choose a file')
         self.name = os.path.basename(self.file)
         if self.file != '':
             hazard = open("mlrefined_libraries/gridworld_library/gridworld_levels/" + self.name + "_maze_hazards.csv", 'w')
@@ -69,10 +70,10 @@ class menu():
         # run q-learning
         qlearner.train(verbose = False, action_method = 'exploit', validate = True)
         # create instance of animator
-        animator = lib.gridworld_animators.animator()
+        # animator = lib.gridworld_animators.animator()
 
-        ### animate training runs of one algorithm ###
-        animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
+        # ### animate training runs of one algorithm ###
+        # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
 
     def val(self, event):
         plt.style.use('ggplot')
