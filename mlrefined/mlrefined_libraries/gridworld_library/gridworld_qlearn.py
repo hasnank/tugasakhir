@@ -190,7 +190,7 @@ class learner():
         self.out_stat.write('minimum step: ' + str(min(self.step_train)) + '\n')
         self.out_stat.write('maximum step: ' + str(max(self.step_train)) + '\n')
         self.out_stat.write('average step: ' + str(mean(self.step_train)) + '\n')
-        self.out_stat.write('goal percentage: ' + str(self.num_goal_train/self.training_episodes) + '%\n')
+        self.out_stat.write('goal percentage: ' + str(self.num_goal_train/self.training_episodes*100) + '%\n')
 
         self.out_stat.write('\n')
 
@@ -198,7 +198,7 @@ class learner():
         self.out_stat.write('minimum step: ' + str(min(self.step_val)) + '\n')
         self.out_stat.write('maximum step: ' + str(max(self.step_val)) + '\n')
         self.out_stat.write('average step: ' + str(mean(self.step_val)) + '\n')
-        self.out_stat.write('goal percentage: ' + str(self.num_goal_val/self.training_episodes) + '%\n')
+        self.out_stat.write('goal percentage: ' + str(self.num_goal_val/self.training_episodes*100) + '%\n')
 
         self.out.close()
         self.out_csv.close()
