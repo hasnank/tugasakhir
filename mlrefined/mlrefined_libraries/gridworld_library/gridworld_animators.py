@@ -72,6 +72,7 @@ class animator():
             # record this episode's path
             validation_run_history.append(episode_path)
         
+        # print(validation_run_history)
         ### compute maximum length of episodes animated ###
         max_len = 0
         for i in range(len(starting_locs)):
@@ -105,7 +106,7 @@ class animator():
             return artist,
         
         # create animation object
-        anim = animation.FuncAnimation(fig, show_episode,frames=min(100,max_len), interval=min(100,max_len), blit=True)
+        anim = animation.FuncAnimation(fig, show_episode,frames=max_len, repeat_delay=100, blit=False)
 
         # set frames per second in animation
         # IPython_display.anim_to_html(anim,fps = min(100,max_len)/float(10))
