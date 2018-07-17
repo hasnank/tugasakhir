@@ -27,6 +27,7 @@ class learner():
         self.validation_start_schedule = self.grid.validation_start_schedule[:self.validation_episodes]
 
         self.start_point = []
+        self.iter = args['iter']
         
         if self.grid.isEight:
             direction = 8
@@ -35,6 +36,13 @@ class learner():
         
         directory = "result/" + self.name + "_" + str(self.training_episodes) + "episode_" + str(direction) + "direction_rand1_0.5epsilon"
 
+        try:
+            os.makedirs(directory)
+        except OSError as e:
+            if e.errno != errno.EEXIST:
+                raise
+
+        directory += "/" + str(self.iter+1)
         try:
             os.makedirs(directory)
         except OSError as e:

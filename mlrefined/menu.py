@@ -64,17 +64,20 @@ class menu():
         print ('the standard square reward is preset to ' + str(small_maze.standard_reward))
         print ('the hazard reward is preset to ' + str(small_maze.hazard_reward))
         print ('the goal reward is preset to ' + str(small_maze.goal_reward))
-        # create an instance of the q-learner
-        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name)
-
+        
         # run q-learning
-        qlearner.train(verbose = False, action_method = 'exploit', validate = True)
-        # create instance of animator
-        animator = lib.gridworld_animators.animator()
+        for i in range(5):
+            # create an instance of the q-learner
+            qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name, iter = i)
 
-        ### animate training runs of one algorithm ###
-        # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
-        animator.animate_validation_runs(gridworld = small_maze, learner = qlearner, starting_locations = [self.start])
+            qlearner.train(verbose = False, action_method = 'exploit', validate = True)
+    
+        # create instance of animator
+        # animator = lib.gridworld_animators.animator()
+
+        # ### animate training runs of one algorithm ###
+        # # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
+        # animator.animate_validation_runs(gridworld = small_maze, learner = qlearner, starting_locations = [self.start])
 
     def val(self, event):
         plt.style.use('ggplot')
