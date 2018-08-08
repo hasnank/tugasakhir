@@ -1,0 +1,13 @@
+STATISTICS
+
+TRAIN
+minimum step: 10
+maximum step: 500
+average step: 224.614
+goal percentage: 86.4%
+
+VALIDATE
+minimum step: 28
+maximum step: 500
+average step: 137.53
+goal percentage: 76.8%

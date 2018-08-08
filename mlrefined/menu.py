@@ -68,9 +68,10 @@ class menu():
         # run q-learning
         for i in range(5):
             # create an instance of the q-learner
-            qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name, iter = i)
+            for val in [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]:
+                qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name, iter = i, exploit_param = val)
 
-            qlearner.train(verbose = False, action_method = 'exploit', validate = True)
+                qlearner.train(verbose = False, action_method = 'exploit', validate = True)
     
         # create instance of animator
         # animator = lib.gridworld_animators.animator()
@@ -99,6 +100,23 @@ class menu():
         ax.set_ylabel('total reward')
         plt.show()    
 
+    def animateModel(self, event):
+        dirr = os.getcwd() + '/result/' + self.name
+        if self.isEight:
+            dirr += '/8direction'
+        else:
+            dirr += '/4direction'
+
+        small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.width, goal=self.goal, start=self.start, training_episodes = 1000, isEight = self.isEight)
+
+        file = askopenfilename(parent=root, initialdir = dirr, title='Choose a model file')
+        
+        # create instance of animator
+        animator = lib.gridworld_animators.animator()
+
+        ### animate training runs of one algorithm ###
+        # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
+        animator.animate_validation_runs(gridworld = small_maze, q = file, starting_locations = [self.start])
 
 
 sys.path.append('../../')
@@ -111,7 +129,6 @@ chooseFileButton = Button(root, text="Choose File...")
 chooseFileButton.bind("<Button-1>", menu.openFile)
 chooseFileButton.pack()
 
-
 eightModeCheck = Checkbutton(root, text = "8-mode", variable = menu.var, command = menu.changeEight)
 eightModeCheck.pack()
 
@@ -119,8 +136,12 @@ runButton = Button(root, text="Run")
 runButton.bind("<Button-1>", menu.run)
 runButton.pack()
 
-valButton = Button(root, text="Validate")
-valButton.bind("<Button-1>", menu.val)
-valButton.pack()
+chooseModelButton = Button(root, text="Animate Model")
+chooseModelButton.bind("<Button-1>", menu.animateModel)
+chooseModelButton.pack()
+
+# valButton = Button(root, text="Validate")
+# valButton.bind("<Button-1>", menu.val)
+# valButton.pack()
 
 root.mainloop()

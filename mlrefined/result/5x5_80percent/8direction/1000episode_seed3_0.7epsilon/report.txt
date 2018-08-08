@@ -1,0 +1,9000 @@
+EPISODE 1
+TRAIN: GOAL
+time: 1.5420000000005984 ms
+reward: -17.014999999999997
+step: 33
+VALIDATE: 
+reward: -63.06199999999995
+step: 125
+
+EPISODE 2
+TRAIN: GOAL
+time: 2.364999999997508 ms
+reward: -41.010999999999996
+step: 53
+VALIDATE: 
+reward: -63.06199999999995
+step: 125
+
+EPISODE 3
+TRAIN: GOAL
+time: 3.588000000007696 ms
+reward: -58.02299999999998
+step: 82
+VALIDATE: 
+reward: -125
+step: 125
+
+EPISODE 4
+TRAIN: GOAL
+time: 2.193999999974494 ms
+reward: -28.020000000000014
+step: 49
+VALIDATE: 
+reward: -125
+step: 125
+
+EPISODE 5
+TRAIN: GOAL
+time: 1.2580000000070868 ms
+reward: -14.001000000000001
+step: 16
+VALIDATE: GOAL
+reward: -0.004
+step: 5
+
+EPISODE 6
+TRAIN: GOAL
+time: 0.8459999999956835 ms
+reward: -4.0120000000000005
+step: 17
+VALIDATE: GOAL
+reward: -0.004
+step: 5
+
+EPISODE 7
+TRAIN: GOAL
+time: 1.7489999999895645 ms
+reward: -26.013
+step: 40
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 8
+TRAIN: GOAL
+time: 1.4989999999954762 ms
+reward: -23.009000000000004
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 9
+TRAIN: GOAL
+time: 0.5099999999913507 ms
+reward: -5.004000000000001
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 10
+TRAIN: GOAL
+time: 0.6349999999883948 ms
+reward: -5.007000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 11
+TRAIN: GOAL
+time: 1.0310000000117725 ms
+reward: -9.010999999999997
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 12
+TRAIN: GOAL
+time: 0.16399999998384374 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 13
+TRAIN: GOAL
+time: 0.6050000000072941 ms
+reward: -4.007
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 14
+TRAIN: GOAL
+time: 0.3350000000068576 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 15
+TRAIN: GOAL
+time: 0.5470000000116215 ms
+reward: -10
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 16
+TRAIN: GOAL
+time: 0.6459999999890442 ms
+reward: -6.006000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 17
+TRAIN: GOAL
+time: 0.21200000000476393 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 18
+TRAIN: GOAL
+time: 1.5830000000107702 ms
+reward: -25.011
+step: 37
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 19
+TRAIN: GOAL
+time: 0.7650000000012369 ms
+reward: -7.008
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 20
+TRAIN: GOAL
+time: 0.16200000001731496 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 21
+TRAIN: GOAL
+time: 0.48300000000267573 ms
+reward: -5.003
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 22
+TRAIN: GOAL
+time: 0.21299999997381747 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 23
+TRAIN: GOAL
+time: 0.686999999999216 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 24
+TRAIN: GOAL
+time: 1.9439999999804058 ms
+reward: -11.004
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 25
+TRAIN: GOAL
+time: 0.7730000000094606 ms
+reward: -9.005999999999998
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 26
+TRAIN: GOAL
+time: 1.2779999999850133 ms
+reward: -7.0009999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 27
+TRAIN: GOAL
+time: 0.8919999999932315 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 28
+TRAIN: GOAL
+time: 0.3379999999992833 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 29
+TRAIN: GOAL
+time: 1.4609999999777301 ms
+reward: -15.015999999999996
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 30
+TRAIN: GOAL
+time: 0.8520000000089567 ms
+reward: -8.009000000000002
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 31
+TRAIN: GOAL
+time: 0.5029999999806023 ms
+reward: -3.006
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 32
+TRAIN: GOAL
+time: 0.575999999995247 ms
+reward: -6.005000000000002
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 33
+TRAIN: GOAL
+time: 0.3049999999973352 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 34
+TRAIN: GOAL
+time: 0.32999999999105967 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 35
+TRAIN: GOAL
+time: 0.2889999999808879 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 36
+TRAIN: GOAL
+time: 0.2869999999859374 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 37
+TRAIN: GOAL
+time: 0.1469999999983429 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 38
+TRAIN: GOAL
+time: 0.4550000000165255 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 39
+TRAIN: GOAL
+time: 0.15099999998824387 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 40
+TRAIN: GOAL
+time: 0.23999999999091415 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 41
+TRAIN: GOAL
+time: 0.33400000000938235 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 42
+TRAIN: GOAL
+time: 0.15099999998824387 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 43
+TRAIN: GOAL
+time: 0.5050000000039745 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 44
+TRAIN: GOAL
+time: 0.19899999998074236 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 45
+TRAIN: GOAL
+time: 1.4970000000005257 ms
+reward: -19.012000000000004
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 46
+TRAIN: GOAL
+time: 0.16800000000216642 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 47
+TRAIN: GOAL
+time: 0.24899999999661304 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 48
+TRAIN: GOAL
+time: 0.6070000000022446 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 49
+TRAIN: GOAL
+time: 0.9990000000072996 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 50
+TRAIN: GOAL
+time: 0.41400000000635373 ms
+reward: -1.005
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 51
+TRAIN: GOAL
+time: 1.107000000018843 ms
+reward: -10.011
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 52
+TRAIN: GOAL
+time: 0.3739999999936572 ms
+reward: -0.005
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 53
+TRAIN: GOAL
+time: 4.188999999996668 ms
+reward: -19.013
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 54
+TRAIN: GOAL
+time: 0.38900000001262924 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 55
+TRAIN: GOAL
+time: 0.30899999998723615 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 56
+TRAIN: GOAL
+time: 0.15700000000151704 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 57
+TRAIN: GOAL
+time: 0.37299999999618194 ms
+reward: -5
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 58
+TRAIN: GOAL
+time: 0.16199999998889325 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 59
+TRAIN: GOAL
+time: 0.3749999999911324 ms
+reward: -1.004
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 60
+TRAIN: GOAL
+time: 0.16499999998131898 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 61
+TRAIN: GOAL
+time: 0.302999999973963 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 62
+TRAIN: GOAL
+time: 3.3859999999776846 ms
+reward: -18.014000000000006
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 63
+TRAIN: GOAL
+time: 0.19199999999841566 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 64
+TRAIN: GOAL
+time: 0.7699999999886131 ms
+reward: -4.008
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 65
+TRAIN: GOAL
+time: 0.1769999999794436 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 66
+TRAIN: GOAL
+time: 0.26700000000801083 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 67
+TRAIN: GOAL
+time: 0.30199999997648774 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 68
+TRAIN: GOAL
+time: 0.44199999999250394 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 69
+TRAIN: GOAL
+time: 0.16200000001731496 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 70
+TRAIN: GOAL
+time: 0.275999999985288 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 71
+TRAIN: GOAL
+time: 0.17600000001039007 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 72
+TRAIN: GOAL
+time: 0.20299999999906504 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 73
+TRAIN: GOAL
+time: 0.39200000000505497 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 74
+TRAIN: GOAL
+time: 0.1560000000040418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 75
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 76
+TRAIN: GOAL
+time: 0.5329999999901247 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 77
+TRAIN: GOAL
+time: 0.821000000001959 ms
+reward: -5.011
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 78
+TRAIN: GOAL
+time: 1.1570000000062919 ms
+reward: -11.011
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 79
+TRAIN: GOAL
+time: 0.5309999999951742 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 80
+TRAIN: GOAL
+time: 0.5730000000028213 ms
+reward: -7.003
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 81
+TRAIN: GOAL
+time: 1.0589999999979227 ms
+reward: -10.010999999999997
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 82
+TRAIN: GOAL
+time: 0.21300000000223918 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 83
+TRAIN: GOAL
+time: 1.1770000000126402 ms
+reward: -16.008000000000003
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 84
+TRAIN: GOAL
+time: 0.3140000000030341 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 85
+TRAIN: GOAL
+time: 0.30399999999985994 ms
+reward: -0.004
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 86
+TRAIN: GOAL
+time: 1.7249999999933152 ms
+reward: -11.012999999999998
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 87
+TRAIN: GOAL
+time: 2.220999999991591 ms
+reward: -10.01
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 88
+TRAIN: GOAL
+time: 0.3300000000194814 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 89
+TRAIN: GOAL
+time: 0.9729999999876782 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 90
+TRAIN: GOAL
+time: 1.4799999999866031 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 91
+TRAIN: GOAL
+time: 0.3539999999873089 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 92
+TRAIN: GOAL
+time: 0.7999999999981355 ms
+reward: -5.009000000000001
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 93
+TRAIN: GOAL
+time: 0.6329999999934444 ms
+reward: -4.007
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 94
+TRAIN: GOAL
+time: 0.8789999999976317 ms
+reward: -8.008
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 95
+TRAIN: GOAL
+time: 0.9029999999938809 ms
+reward: -14.003
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 96
+TRAIN: GOAL
+time: 1.2649999999894135 ms
+reward: -11.013999999999996
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 97
+TRAIN: GOAL
+time: 0.3470000000049822 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 98
+TRAIN: GOAL
+time: 0.20499999999401552 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 99
+TRAIN: GOAL
+time: 0.4959999999982756 ms
+reward: -3.005
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 100
+TRAIN: GOAL
+time: 1.140000000020791 ms
+reward: -8.015000000000004
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 101
+TRAIN: GOAL
+time: 1.471000000009326 ms
+reward: -23.008000000000006
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 102
+TRAIN: GOAL
+time: 0.3879999999867323 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 103
+TRAIN: GOAL
+time: 0.7270000000119126 ms
+reward: -6.008000000000002
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 104
+TRAIN: GOAL
+time: 0.34300000001508124 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 105
+TRAIN: GOAL
+time: 0.6579999999871688 ms
+reward: -4.007000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 106
+TRAIN: GOAL
+time: 0.206999999988966 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 107
+TRAIN: GOAL
+time: 0.15199999998571911 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 108
+TRAIN: GOAL
+time: 1.3150000000052842 ms
+reward: -12.016000000000002
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 109
+TRAIN: GOAL
+time: 0.3829999999993561 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 110
+TRAIN: GOAL
+time: 0.686999999999216 ms
+reward: -9.004000000000001
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 111
+TRAIN: GOAL
+time: 2.051999999991949 ms
+reward: -25.02000000000001
+step: 46
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 112
+TRAIN: GOAL
+time: 0.9389999999882548 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 113
+TRAIN: GOAL
+time: 1.7300000000091131 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 114
+TRAIN: GOAL
+time: 0.2160000000230866 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 115
+TRAIN: GOAL
+time: 0.26300000001810986 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 116
+TRAIN: GOAL
+time: 0.2659999999821139 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 117
+TRAIN: GOAL
+time: 1.3720000000034815 ms
+reward: -6.003000000000001
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 118
+TRAIN: GOAL
+time: 1.2700000000052114 ms
+reward: -8.008000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 119
+TRAIN: GOAL
+time: 0.5740000000002965 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 120
+TRAIN: GOAL
+time: 0.7730000000094606 ms
+reward: -8.004999999999999
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 121
+TRAIN: GOAL
+time: 0.2589999999997872 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 122
+TRAIN: GOAL
+time: 1.213000000007014 ms
+reward: -10.013
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 123
+TRAIN: GOAL
+time: 0.7710000000145101 ms
+reward: -5.009
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 124
+TRAIN: GOAL
+time: 0.35499999998478415 ms
+reward: -5
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 125
+TRAIN: GOAL
+time: 0.4020000000082291 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 126
+TRAIN: GOAL
+time: 0.5050000000039745 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 127
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 128
+TRAIN: GOAL
+time: 1.046999999999798 ms
+reward: -12.008999999999997
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 129
+TRAIN: GOAL
+time: 0.34099999999170905 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 130
+TRAIN: GOAL
+time: 0.2159999999946649 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 131
+TRAIN: GOAL
+time: 0.5439999999907741 ms
+reward: -4.005
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 132
+TRAIN: GOAL
+time: 0.30000000000995897 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 133
+TRAIN: GOAL
+time: 1.0310000000117725 ms
+reward: -11.008999999999999
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 134
+TRAIN: GOAL
+time: 0.24199999998586463 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 135
+TRAIN: GOAL
+time: 0.2020000000015898 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 136
+TRAIN: GOAL
+time: 0.4429999999899792 ms
+reward: -3.004
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 137
+TRAIN: GOAL
+time: 0.4410000000234504 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 138
+TRAIN: GOAL
+time: 0.41400000000635373 ms
+reward: -6.001
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 139
+TRAIN: GOAL
+time: 0.7699999999886131 ms
+reward: -6.009
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 140
+TRAIN: GOAL
+time: 0.6700000000137152 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 141
+TRAIN: GOAL
+time: 0.5229999999869506 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 142
+TRAIN: GOAL
+time: 0.2920000000017353 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 143
+TRAIN: GOAL
+time: 0.4390000000000782 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 144
+TRAIN: GOAL
+time: 2.6519999999834454 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 145
+TRAIN: GOAL
+time: 0.22400000000288856 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 146
+TRAIN: GOAL
+time: 0.2690000000029613 ms
+reward: -1.0019999999999998
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 147
+TRAIN: GOAL
+time: 0.9989999999788779 ms
+reward: -12.007
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 148
+TRAIN: GOAL
+time: 3.1819999999811444 ms
+reward: -19.021000000000008
+step: 41
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 149
+TRAIN: GOAL
+time: 0.7339999999942393 ms
+reward: -7.005000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 150
+TRAIN: GOAL
+time: 0.5179999999995744 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 151
+TRAIN: GOAL
+time: 0.30900000001565786 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 152
+TRAIN: GOAL
+time: 0.24299999998333988 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 153
+TRAIN: GOAL
+time: 1.1810000000025411 ms
+reward: -11.011
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 154
+TRAIN: GOAL
+time: 0.15999999999394277 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 155
+TRAIN: GOAL
+time: 0.6149999999820466 ms
+reward: -5.005999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 156
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 157
+TRAIN: GOAL
+time: 0.5239999999844258 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 158
+TRAIN: GOAL
+time: 0.3949999999974807 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 159
+TRAIN: GOAL
+time: 0.8209999999735373 ms
+reward: -8.008
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 160
+TRAIN: GOAL
+time: 0.866999999999507 ms
+reward: -8.009000000000002
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 161
+TRAIN: GOAL
+time: 0.39599999999495594 ms
+reward: -2.004
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 162
+TRAIN: GOAL
+time: 1.5160000000093987 ms
+reward: -18.014
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 163
+TRAIN: GOAL
+time: 0.2479999999991378 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 164
+TRAIN: GOAL
+time: 0.6229999999902702 ms
+reward: -5.005999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 165
+TRAIN: GOAL
+time: 0.29299999999921056 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 166
+TRAIN: GOAL
+time: 0.5870000000243181 ms
+reward: -7.004000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 167
+TRAIN: GOAL
+time: 0.8160000000145828 ms
+reward: -10.006
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 168
+TRAIN: GOAL
+time: 4.484999999988304 ms
+reward: -24.016000000000002
+step: 41
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 169
+TRAIN: GOAL
+time: 0.31999999998788553 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 170
+TRAIN: GOAL
+time: 0.8189999999785869 ms
+reward: -7.008000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 171
+TRAIN: GOAL
+time: 1.4869999999973516 ms
+reward: -16.014999999999993
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 172
+TRAIN: GOAL
+time: 0.17399999998701787 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 173
+TRAIN: GOAL
+time: 2.728999999987991 ms
+reward: -15.007999999999996
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 174
+TRAIN: GOAL
+time: 0.5370000000084474 ms
+reward: -3.005
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 175
+TRAIN: GOAL
+time: 0.6429999999966185 ms
+reward: -4.005999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 176
+TRAIN: GOAL
+time: 0.4220000000145774 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 177
+TRAIN: GOAL
+time: 0.3310000000169566 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 178
+TRAIN: GOAL
+time: 0.31300000000555883 ms
+reward: -0.004
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 179
+TRAIN: GOAL
+time: 0.9540000000072268 ms
+reward: -11.007
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 180
+TRAIN: GOAL
+time: 0.5969999999990705 ms
+reward: -4.005999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 181
+TRAIN: GOAL
+time: 0.3879999999867323 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 182
+TRAIN: GOAL
+time: 0.16600000000721593 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 183
+TRAIN: GOAL
+time: 0.5999999999914962 ms
+reward: -3.007999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 184
+TRAIN: GOAL
+time: 0.20500000002243723 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 185
+TRAIN: GOAL
+time: 0.4869999999925767 ms
+reward: -5.003
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 186
+TRAIN: GOAL
+time: 0.6170000000054188 ms
+reward: -6.005000000000002
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 187
+TRAIN: GOAL
+time: 0.2940000000251075 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 188
+TRAIN: GOAL
+time: 0.7319999999992888 ms
+reward: -8.006
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 189
+TRAIN: GOAL
+time: 0.38700000001767876 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 190
+TRAIN: GOAL
+time: 0.8229999999969095 ms
+reward: -10.005999999999997
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 191
+TRAIN: GOAL
+time: 0.7790000000227337 ms
+reward: -6.009
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 192
+TRAIN: GOAL
+time: 0.5740000000002965 ms
+reward: -3.007
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 193
+TRAIN: GOAL
+time: 0.29000000000678483 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 194
+TRAIN: GOAL
+time: 0.25800000000231194 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 195
+TRAIN: GOAL
+time: 0.6279999999776464 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 196
+TRAIN: GOAL
+time: 0.5610000000046966 ms
+reward: -5.005000000000001
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 197
+TRAIN: GOAL
+time: 0.16399999998384374 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 198
+TRAIN: GOAL
+time: 0.17099999999459214 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 199
+TRAIN: GOAL
+time: 2.258999999980915 ms
+reward: -5.0120000000000005
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 200
+TRAIN: GOAL
+time: 0.7039999999847169 ms
+reward: -8.005
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 201
+TRAIN: GOAL
+time: 0.660000000010541 ms
+reward: -7.005000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 202
+TRAIN: GOAL
+time: 0.19800000001168883 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 203
+TRAIN: GOAL
+time: 0.5240000000128475 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 204
+TRAIN: GOAL
+time: 0.6960000000049149 ms
+reward: -9.004
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 205
+TRAIN: GOAL
+time: 0.41000000001645276 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 206
+TRAIN: GOAL
+time: 0.36599999998543353 ms
+reward: -0.005
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 207
+TRAIN: GOAL
+time: 0.9060000000147284 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 208
+TRAIN: GOAL
+time: 2.0199999999874763 ms
+reward: -14.011999999999995
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 209
+TRAIN: GOAL
+time: 0.7779999999968368 ms
+reward: -7.007000000000002
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 210
+TRAIN: GOAL
+time: 0.5409999999983484 ms
+reward: -6.003
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 211
+TRAIN: GOAL
+time: 2.2289999999998145 ms
+reward: -26.021000000000008
+step: 48
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 212
+TRAIN: GOAL
+time: 0.5179999999995744 ms
+reward: -4.005
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 213
+TRAIN: GOAL
+time: 0.1540000000090913 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 214
+TRAIN: GOAL
+time: 0.6710000000111904 ms
+reward: -4.007999999999999
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 215
+TRAIN: GOAL
+time: 0.2479999999991378 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 216
+TRAIN: GOAL
+time: 0.526000000007798 ms
+reward: -4.005
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 217
+TRAIN: GOAL
+time: 0.25400000001241096 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 218
+TRAIN: GOAL
+time: 0.4799999999818283 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 219
+TRAIN: GOAL
+time: 0.2020000000015898 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 220
+TRAIN: GOAL
+time: 0.15999999999394277 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 221
+TRAIN: GOAL
+time: 0.6999999999948159 ms
+reward: -6.007
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 222
+TRAIN: GOAL
+time: 0.8799999999951069 ms
+reward: -10.007
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 223
+TRAIN: GOAL
+time: 0.1630000000147902 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 224
+TRAIN: GOAL
+time: 0.7379999999841402 ms
+reward: -5.0089999999999995
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 225
+TRAIN: GOAL
+time: 0.20600000001991248 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 226
+TRAIN: GOAL
+time: 0.19399999999336615 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 227
+TRAIN: GOAL
+time: 4.542000000014923 ms
+reward: -19.02000000000001
+step: 40
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 228
+TRAIN: GOAL
+time: 0.18299999999271677 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 229
+TRAIN: GOAL
+time: 0.4989999999907013 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 230
+TRAIN: GOAL
+time: 1.4769999999941774 ms
+reward: -9
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 231
+TRAIN: GOAL
+time: 0.34299999998665953 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 232
+TRAIN: GOAL
+time: 0.6889999999941665 ms
+reward: -3.0069999999999992
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 233
+TRAIN: GOAL
+time: 1.5589999999860993 ms
+reward: -16.012999999999998
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 234
+TRAIN: GOAL
+time: 0.8109999999987849 ms
+reward: -2.011999999999999
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 235
+TRAIN: GOAL
+time: 0.7299999999759166 ms
+reward: -2.0099999999999993
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 236
+TRAIN: GOAL
+time: 0.1770000000078653 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 237
+TRAIN: GOAL
+time: 0.4270000000019536 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 238
+TRAIN: GOAL
+time: 0.2669999999795891 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 239
+TRAIN: GOAL
+time: 0.849000000016531 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 240
+TRAIN: GOAL
+time: 0.5669999999895481 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 241
+TRAIN: GOAL
+time: 0.7200000000011642 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 242
+TRAIN: GOAL
+time: 0.2959999999916363 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 243
+TRAIN: GOAL
+time: 0.17800000000534055 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 244
+TRAIN: GOAL
+time: 0.830000000007658 ms
+reward: -6.009000000000001
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 245
+TRAIN: GOAL
+time: 0.16600000000721593 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 246
+TRAIN: GOAL
+time: 0.9809999999959018 ms
+reward: -8.010000000000002
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 247
+TRAIN: GOAL
+time: 1.1560000000088166 ms
+reward: -11.011999999999995
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 248
+TRAIN: GOAL
+time: 0.30199999997648774 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 249
+TRAIN: GOAL
+time: 0.4710000000045511 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 250
+TRAIN: GOAL
+time: 0.6290000000035434 ms
+reward: -3.007999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 251
+TRAIN: GOAL
+time: 0.15499999997814484 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 252
+TRAIN: GOAL
+time: 0.9459999999990032 ms
+reward: -6.011000000000001
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 253
+TRAIN: GOAL
+time: 0.552999999996473 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 254
+TRAIN: GOAL
+time: 1.6339999999956945 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 255
+TRAIN: GOAL
+time: 0.6119999999896208 ms
+reward: -4.006
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 256
+TRAIN: GOAL
+time: 2.489999999994552 ms
+reward: -17.009999999999998
+step: 28
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 257
+TRAIN: GOAL
+time: 0.8679999999969823 ms
+reward: -1.0049999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 258
+TRAIN: GOAL
+time: 0.3310000000169566 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 259
+TRAIN: GOAL
+time: 0.3680000000088057 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 260
+TRAIN: GOAL
+time: 0.3260000000011587 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 261
+TRAIN: GOAL
+time: 0.4249999999785814 ms
+reward: -3.003
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 262
+TRAIN: GOAL
+time: 0.160999999991418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 263
+TRAIN: GOAL
+time: 0.30900000001565786 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 264
+TRAIN: GOAL
+time: 0.5290000000002237 ms
+reward: -7.002
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 265
+TRAIN: GOAL
+time: 0.38899999998420753 ms
+reward: -5.001
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 266
+TRAIN: GOAL
+time: 0.4459999999824049 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 267
+TRAIN: GOAL
+time: 0.4589999999780048 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 268
+TRAIN: GOAL
+time: 0.3030000000023847 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 269
+TRAIN: GOAL
+time: 0.48999999998500243 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 270
+TRAIN: GOAL
+time: 0.390999999979158 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 271
+TRAIN: GOAL
+time: 0.43500000001017725 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 272
+TRAIN: GOAL
+time: 0.29499999999416104 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 273
+TRAIN: GOAL
+time: 0.5230000000153723 ms
+reward: -2.0069999999999997
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 274
+TRAIN: GOAL
+time: 0.40999999998803105 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 275
+TRAIN: GOAL
+time: 0.2530000000149357 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 276
+TRAIN: GOAL
+time: 1.8829999999923075 ms
+reward: -25.01600000000001
+step: 42
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 277
+TRAIN: GOAL
+time: 0.683000000009315 ms
+reward: -2.0069999999999992
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 278
+TRAIN: GOAL
+time: 1.0900000000049204 ms
+reward: -15.006999999999996
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 279
+TRAIN: GOAL
+time: 0.3839999999968313 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 280
+TRAIN: GOAL
+time: 0.32699999999863394 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 281
+TRAIN: GOAL
+time: 0.7280000000093878 ms
+reward: -7.007000000000001
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 282
+TRAIN: GOAL
+time: 1.031999999980826 ms
+reward: -9.012
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 283
+TRAIN: GOAL
+time: 0.48099999997930354 ms
+reward: -6.002
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 284
+TRAIN: GOAL
+time: 1.079000000004271 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 285
+TRAIN: GOAL
+time: 1.209000000017113 ms
+reward: -10.007
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 286
+TRAIN: GOAL
+time: 0.1699999999971169 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 287
+TRAIN: GOAL
+time: 1.3999999999896318 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 288
+TRAIN: GOAL
+time: 1.517000000006874 ms
+reward: -7.006000000000001
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 289
+TRAIN: GOAL
+time: 0.572000000005346 ms
+reward: -3.006
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 290
+TRAIN: GOAL
+time: 0.736999999986665 ms
+reward: -6.007000000000001
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 291
+TRAIN: GOAL
+time: 0.9990000000072996 ms
+reward: -10.008999999999999
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 292
+TRAIN: GOAL
+time: 0.6520000000023174 ms
+reward: -5.0070000000000014
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 293
+TRAIN: GOAL
+time: 0.43700000000512773 ms
+reward: -3.004
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 294
+TRAIN: GOAL
+time: 0.15300000001161607 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 295
+TRAIN: GOAL
+time: 0.5710000000078708 ms
+reward: -4.006
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 296
+TRAIN: GOAL
+time: 0.25800000000231194 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 297
+TRAIN: GOAL
+time: 0.42600000000447835 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 298
+TRAIN: GOAL
+time: 0.6269999999801712 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 299
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 300
+TRAIN: GOAL
+time: 2.030000000019072 ms
+reward: -20.023000000000007
+step: 44
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 301
+TRAIN: GOAL
+time: 0.2479999999991378 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 302
+TRAIN: GOAL
+time: 0.2460000000041873 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 303
+TRAIN: GOAL
+time: 1.0589999999979227 ms
+reward: -10.008
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 304
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 305
+TRAIN: GOAL
+time: 0.5060000000014497 ms
+reward: -6.003
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 306
+TRAIN: GOAL
+time: 0.9330000000034033 ms
+reward: -11.007999999999997
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 307
+TRAIN: GOAL
+time: 0.8909999999957563 ms
+reward: -9.009
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 308
+TRAIN: GOAL
+time: 0.1539999999806696 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 309
+TRAIN: GOAL
+time: 0.20100000000411455 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 310
+TRAIN: GOAL
+time: 0.14999999999076863 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 311
+TRAIN: GOAL
+time: 0.5009999999856518 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 312
+TRAIN: GOAL
+time: 0.9500000000173259 ms
+reward: -11.008
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 313
+TRAIN: GOAL
+time: 0.621999999992795 ms
+reward: -4.007
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 314
+TRAIN: GOAL
+time: 1.8650000000093314 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 315
+TRAIN: GOAL
+time: 0.5130000000121981 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 316
+TRAIN: GOAL
+time: 0.3879999999867323 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 317
+TRAIN: GOAL
+time: 0.9199999999793818 ms
+reward: -10.008000000000001
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 318
+TRAIN: GOAL
+time: 1.5290000000049986 ms
+reward: -9.008999999999999
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 319
+TRAIN: GOAL
+time: 0.5519999999989977 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 320
+TRAIN: GOAL
+time: 0.4060000000265518 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 321
+TRAIN: GOAL
+time: 0.1650000000097407 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 322
+TRAIN: GOAL
+time: 0.15199999998571911 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 323
+TRAIN: GOAL
+time: 2.8369999999995343 ms
+reward: -32.03100000000002
+step: 64
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 324
+TRAIN: GOAL
+time: 0.7870000000025357 ms
+reward: -12.004
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 325
+TRAIN: GOAL
+time: 0.45099999999820284 ms
+reward: -2.005
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 326
+TRAIN: GOAL
+time: 0.35299999998983367 ms
+reward: -1.004
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 327
+TRAIN: GOAL
+time: 0.42600000000447835 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 328
+TRAIN: GOAL
+time: 1.236000000005788 ms
+reward: -13.012
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 329
+TRAIN: GOAL
+time: 0.15999999999394277 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 330
+TRAIN: GOAL
+time: 0.1539999999806696 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 331
+TRAIN: GOAL
+time: 0.6720000000086657 ms
+reward: -6.007
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 332
+TRAIN: GOAL
+time: 0.821000000001959 ms
+reward: -7.009000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 333
+TRAIN: GOAL
+time: 0.4130000000088785 ms
+reward: -7
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 334
+TRAIN: GOAL
+time: 0.7170000000087384 ms
+reward: -5.009000000000002
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 335
+TRAIN: GOAL
+time: 1.0669999999777247 ms
+reward: -12.009999999999998
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 336
+TRAIN: GOAL
+time: 0.204000000024962 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 337
+TRAIN: GOAL
+time: 0.19399999999336615 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 338
+TRAIN: GOAL
+time: 0.33600000000433283 ms
+reward: -2.003
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 339
+TRAIN: GOAL
+time: 0.2000000000066393 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 340
+TRAIN: GOAL
+time: 0.706000000008089 ms
+reward: -7.0070000000000014
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 341
+TRAIN: GOAL
+time: 0.4780000000152995 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 342
+TRAIN: GOAL
+time: 0.7690000000195596 ms
+reward: -9.006
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 343
+TRAIN: GOAL
+time: 0.42199999998615567 ms
+reward: -7
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 344
+TRAIN: GOAL
+time: 3.061000000002423 ms
+reward: -12.007999999999997
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 345
+TRAIN: GOAL
+time: 0.3100000000131331 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 346
+TRAIN: GOAL
+time: 0.5489999999781503 ms
+reward: -8.001999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 347
+TRAIN: GOAL
+time: 0.4679999999837037 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 348
+TRAIN: GOAL
+time: 0.3350000000068576 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 349
+TRAIN: GOAL
+time: 0.5210000000204218 ms
+reward: -6.003
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 350
+TRAIN: GOAL
+time: 0.21000000000981345 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 351
+TRAIN: GOAL
+time: 2.0429999999862503 ms
+reward: -12.011999999999999
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 352
+TRAIN: GOAL
+time: 0.6340000000193413 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 353
+TRAIN: GOAL
+time: 0.20999999998139174 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 354
+TRAIN: GOAL
+time: 0.15200000001414082 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 355
+TRAIN: GOAL
+time: 0.31800000002135675 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 356
+TRAIN: GOAL
+time: 0.5449999999882493 ms
+reward: -7.003
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 357
+TRAIN: GOAL
+time: 0.2889999999808879 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 358
+TRAIN: GOAL
+time: 0.2389999999934389 ms
+reward: -1.0019999999999998
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 359
+TRAIN: GOAL
+time: 1.4459999999871798 ms
+reward: -16.014999999999997
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 360
+TRAIN: GOAL
+time: 0.9060000000147284 ms
+reward: -11.006999999999998
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 361
+TRAIN: GOAL
+time: 1.01399999999785 ms
+reward: -10.009999999999998
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 362
+TRAIN: GOAL
+time: 0.38200000000188084 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 363
+TRAIN: GOAL
+time: 0.24400000000923683 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 364
+TRAIN: GOAL
+time: 0.42099999998868043 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 365
+TRAIN: GOAL
+time: 0.41499999997540726 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 366
+TRAIN: GOAL
+time: 0.15200000001414082 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 367
+TRAIN: GOAL
+time: 1.3360000000091077 ms
+reward: -15.013999999999998
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 368
+TRAIN: GOAL
+time: 0.5540000000223699 ms
+reward: -4.005999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 369
+TRAIN: GOAL
+time: 1.2179999999943902 ms
+reward: -13.012999999999996
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 370
+TRAIN: GOAL
+time: 0.15300000001161607 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 371
+TRAIN: GOAL
+time: 0.25400000001241096 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 372
+TRAIN: GOAL
+time: 0.5370000000084474 ms
+reward: -10
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 373
+TRAIN: GOAL
+time: 0.6889999999941665 ms
+reward: -8.002
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 374
+TRAIN: GOAL
+time: 0.27899999997771374 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 375
+TRAIN: GOAL
+time: 0.9900000000016007 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 376
+TRAIN: GOAL
+time: 0.1929999999958909 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 377
+TRAIN: GOAL
+time: 1.4449999999897045 ms
+reward: -22.007
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 378
+TRAIN: GOAL
+time: 0.5899999999883221 ms
+reward: -4.006000000000001
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 379
+TRAIN: GOAL
+time: 0.6960000000049149 ms
+reward: -4.007999999999999
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 380
+TRAIN: GOAL
+time: 0.7190000000036889 ms
+reward: -12.001999999999999
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 381
+TRAIN: GOAL
+time: 0.7040000000131386 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 382
+TRAIN: GOAL
+time: 0.6119999999896208 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 383
+TRAIN: GOAL
+time: 2.400999999991882 ms
+reward: -20.019999999999996
+step: 41
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 384
+TRAIN: GOAL
+time: 0.9029999999938809 ms
+reward: -12.005999999999997
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 385
+TRAIN: GOAL
+time: 0.5400000000008731 ms
+reward: -2.0079999999999996
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 386
+TRAIN: GOAL
+time: 0.14999999999076863 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 387
+TRAIN: GOAL
+time: 0.4270000000019536 ms
+reward: -5.002000000000001
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 388
+TRAIN: GOAL
+time: 0.33400000000938235 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 389
+TRAIN: GOAL
+time: 0.4640000000222244 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 390
+TRAIN: GOAL
+time: 0.15299999998319436 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 391
+TRAIN: GOAL
+time: 0.24199999998586463 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 392
+TRAIN: GOAL
+time: 0.660000000010541 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 393
+TRAIN: GOAL
+time: 0.3370000000018081 ms
+reward: -2.003
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 394
+TRAIN: GOAL
+time: 1.184999999992442 ms
+reward: -12.012999999999996
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 395
+TRAIN: GOAL
+time: 0.19199999999841566 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 396
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 397
+TRAIN: GOAL
+time: 0.24200000001428634 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 398
+TRAIN: GOAL
+time: 1.0499999999922238 ms
+reward: -15.006999999999998
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 399
+TRAIN: GOAL
+time: 1.2279999999975644 ms
+reward: -14.012
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 400
+TRAIN: GOAL
+time: 0.25400000001241096 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 401
+TRAIN: GOAL
+time: 0.1650000000097407 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 402
+TRAIN: GOAL
+time: 0.26299999998968815 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 403
+TRAIN: GOAL
+time: 0.296000000020058 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 404
+TRAIN: GOAL
+time: 0.24500000000671207 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 405
+TRAIN: GOAL
+time: 0.1630000000147902 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 406
+TRAIN: GOAL
+time: 0.3509999999948832 ms
+reward: -0.005
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 407
+TRAIN: GOAL
+time: 0.30899999998723615 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 408
+TRAIN: GOAL
+time: 1.2370000000032633 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 409
+TRAIN: GOAL
+time: 0.2570000000048367 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 410
+TRAIN: GOAL
+time: 0.15700000000151704 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 411
+TRAIN: GOAL
+time: 0.8489999999881093 ms
+reward: -8.008
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 412
+TRAIN: GOAL
+time: 1.4500000000055024 ms
+reward: -16.015
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 413
+TRAIN: GOAL
+time: 0.15200000001414082 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 414
+TRAIN: GOAL
+time: 0.33899999999675856 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 415
+TRAIN: GOAL
+time: 0.35299999998983367 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 416
+TRAIN: GOAL
+time: 0.4519999999956781 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 417
+TRAIN: GOAL
+time: 0.8550000000013824 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 418
+TRAIN: GOAL
+time: 0.7710000000145101 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 419
+TRAIN: GOAL
+time: 0.7090000000005148 ms
+reward: -6.0040000000000004
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 420
+TRAIN: GOAL
+time: 0.4229999999836309 ms
+reward: -1.0059999999999993
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 421
+TRAIN: GOAL
+time: 0.3769999999860829 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 422
+TRAIN: GOAL
+time: 0.4640000000222244 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 423
+TRAIN: GOAL
+time: 0.6089999999971951 ms
+reward: -5.006000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 424
+TRAIN: GOAL
+time: 0.19900000000916407 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 425
+TRAIN: GOAL
+time: 1.527000000010048 ms
+reward: -15.017999999999994
+step: 34
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 426
+TRAIN: GOAL
+time: 0.809999999972888 ms
+reward: -8.008000000000003
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 427
+TRAIN: GOAL
+time: 0.24199999998586463 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 428
+TRAIN: GOAL
+time: 0.5749999999977717 ms
+reward: -5.005000000000001
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 429
+TRAIN: GOAL
+time: 0.8160000000145828 ms
+reward: -7.009000000000002
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 430
+TRAIN: GOAL
+time: 0.7669999999961874 ms
+reward: -10.004999999999997
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 431
+TRAIN: GOAL
+time: 0.2889999999808879 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 432
+TRAIN: GOAL
+time: 0.14799999999581814 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 433
+TRAIN: GOAL
+time: 0.6279999999776464 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 434
+TRAIN: GOAL
+time: 0.7529999999746906 ms
+reward: -10.004999999999997
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 435
+TRAIN: GOAL
+time: 1.2759999999900629 ms
+reward: -17.010000000000005
+step: 28
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 436
+TRAIN: GOAL
+time: 1.2909999999806132 ms
+reward: -16.010999999999996
+step: 28
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 437
+TRAIN: GOAL
+time: 2.0810000000039963 ms
+reward: -6.007
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 438
+TRAIN: GOAL
+time: 0.45300000002157503 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 439
+TRAIN: GOAL
+time: 0.9019999999964057 ms
+reward: -10.007999999999997
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 440
+TRAIN: GOAL
+time: 2.044000000012147 ms
+reward: -12.006
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 441
+TRAIN: GOAL
+time: 0.4480000000057771 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 442
+TRAIN: GOAL
+time: 0.5899999999883221 ms
+reward: -4.007
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 443
+TRAIN: GOAL
+time: 0.618000000002894 ms
+reward: -11.001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 444
+TRAIN: GOAL
+time: 2.100999999981923 ms
+reward: -24.022000000000013
+step: 47
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 445
+TRAIN: GOAL
+time: 0.38000000000693035 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 446
+TRAIN: GOAL
+time: 1.6709999999875436 ms
+reward: -16.021000000000004
+step: 38
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 447
+TRAIN: GOAL
+time: 1.3989999999921565 ms
+reward: -17.012999999999998
+step: 31
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 448
+TRAIN: GOAL
+time: 0.4199999999912052 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 449
+TRAIN: GOAL
+time: 0.4229999999836309 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 450
+TRAIN: GOAL
+time: 0.1999999999782176 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 451
+TRAIN: GOAL
+time: 0.19699999998579187 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 452
+TRAIN: GOAL
+time: 0.28800000001183435 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 453
+TRAIN: GOAL
+time: 0.9919999999965512 ms
+reward: -11.008999999999999
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 454
+TRAIN: GOAL
+time: 0.3080000000181826 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 455
+TRAIN: GOAL
+time: 0.3999999999848569 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 456
+TRAIN: GOAL
+time: 0.7679999999936626 ms
+reward: -9.006000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 457
+TRAIN: GOAL
+time: 1.031999999980826 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 458
+TRAIN: GOAL
+time: 1.6130000000202926 ms
+reward: -5.005000000000001
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 459
+TRAIN: GOAL
+time: 0.5800000000135697 ms
+reward: -8.001999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 460
+TRAIN: GOAL
+time: 1.2109999999836418 ms
+reward: -12.011000000000003
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 461
+TRAIN: GOAL
+time: 0.713999999987891 ms
+reward: -7.006000000000002
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 462
+TRAIN: GOAL
+time: 2.1010000000103446 ms
+reward: -4.006000000000001
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 463
+TRAIN: GOAL
+time: 0.8909999999957563 ms
+reward: -3.011999999999999
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 464
+TRAIN: GOAL
+time: 0.26700000000801083 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 465
+TRAIN: GOAL
+time: 0.637000000011767 ms
+reward: -4.007000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 466
+TRAIN: GOAL
+time: 1.4759999999967022 ms
+reward: -17.011999999999997
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 467
+TRAIN: GOAL
+time: 1.2619999999969878 ms
+reward: -6.012999999999998
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 468
+TRAIN: GOAL
+time: 0.7500000000106866 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 469
+TRAIN: GOAL
+time: 0.4959999999982756 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 470
+TRAIN: GOAL
+time: 0.3279999999961092 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 471
+TRAIN: GOAL
+time: 1.3170000000002346 ms
+reward: -22.003
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 472
+TRAIN: GOAL
+time: 0.39800000001832814 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 473
+TRAIN: GOAL
+time: 1.41999999999598 ms
+reward: -17.011
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 474
+TRAIN: GOAL
+time: 0.8119999999962602 ms
+reward: -9.006
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 475
+TRAIN: GOAL
+time: 1.3070000000254822 ms
+reward: -16.009999999999998
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 476
+TRAIN: GOAL
+time: 0.30000000000995897 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 477
+TRAIN: GOAL
+time: 1.0580000000004475 ms
+reward: -11.009999999999998
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 478
+TRAIN: GOAL
+time: 0.2020000000015898 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 479
+TRAIN: GOAL
+time: 0.16599999997879422 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 480
+TRAIN: GOAL
+time: 0.3349999999784359 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 481
+TRAIN: GOAL
+time: 0.8369999999899846 ms
+reward: -8.008
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 482
+TRAIN: GOAL
+time: 1.1779999999816937 ms
+reward: -10.013999999999996
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 483
+TRAIN: GOAL
+time: 0.4529999999931533 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 484
+TRAIN: GOAL
+time: 0.3839999999968313 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 485
+TRAIN: GOAL
+time: 0.30200000000490945 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 486
+TRAIN: GOAL
+time: 0.4619999999988522 ms
+reward: -5.003
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 487
+TRAIN: GOAL
+time: 0.16899999999964166 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 488
+TRAIN: GOAL
+time: 0.21699999999214015 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 489
+TRAIN: GOAL
+time: 1.601000000022168 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 490
+TRAIN: GOAL
+time: 0.2920000000017353 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 491
+TRAIN: GOAL
+time: 0.22599999999783904 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 492
+TRAIN: GOAL
+time: 2.7759999999830143 ms
+reward: -19.015
+step: 35
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 493
+TRAIN: GOAL
+time: 0.5040000000064992 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 494
+TRAIN: GOAL
+time: 0.6539999999972679 ms
+reward: -5.005999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 495
+TRAIN: GOAL
+time: 0.27000000000043656 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 496
+TRAIN: GOAL
+time: 0.3630000000214295 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 497
+TRAIN: GOAL
+time: 0.21000000000981345 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 498
+TRAIN: GOAL
+time: 1.2660000000153104 ms
+reward: -12.008999999999999
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 499
+TRAIN: GOAL
+time: 0.1880000000085147 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 500
+TRAIN: GOAL
+time: 0.5189999999970496 ms
+reward: -2.0069999999999992
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 501
+TRAIN: GOAL
+time: 1.1850000000208638 ms
+reward: -14.009999999999998
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 502
+TRAIN: GOAL
+time: 0.19699999998579187 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 503
+TRAIN: GOAL
+time: 2.2989999999936117 ms
+reward: -23.027000000000008
+step: 51
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 504
+TRAIN: GOAL
+time: 0.3900000000101045 ms
+reward: -0.006
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 505
+TRAIN: GOAL
+time: 1.8830000000207292 ms
+reward: -19.021000000000004
+step: 41
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 506
+TRAIN: GOAL
+time: 0.8550000000013824 ms
+reward: -9.007000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 507
+TRAIN: GOAL
+time: 0.4230000000120526 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 508
+TRAIN: GOAL
+time: 0.24399999998081512 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 509
+TRAIN: GOAL
+time: 0.32699999999863394 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 510
+TRAIN: GOAL
+time: 0.4940000000033251 ms
+reward: -1.0069999999999995
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 511
+TRAIN: GOAL
+time: 1.1489999999980682 ms
+reward: -11.012999999999996
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 512
+TRAIN: GOAL
+time: 0.2599999999972624 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 513
+TRAIN: GOAL
+time: 0.6889999999941665 ms
+reward: -10.003
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 514
+TRAIN: GOAL
+time: 1.07500000001437 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 515
+TRAIN: GOAL
+time: 2.767000000005737 ms
+reward: -12.023
+step: 36
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 516
+TRAIN: GOAL
+time: 0.43999999999755346 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 517
+TRAIN: GOAL
+time: 0.16399999998384374 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 518
+TRAIN: GOAL
+time: 1.972999999992453 ms
+reward: -8.006
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 519
+TRAIN: GOAL
+time: 0.7799999999917873 ms
+reward: -6.008000000000001
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 520
+TRAIN: GOAL
+time: 0.30399999999985994 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 521
+TRAIN: GOAL
+time: 0.5479999999806751 ms
+reward: -9
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 522
+TRAIN: GOAL
+time: 0.35499999998478415 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 523
+TRAIN: GOAL
+time: 0.644999999991569 ms
+reward: -5.005999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 524
+TRAIN: GOAL
+time: 0.2570000000048367 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 525
+TRAIN: GOAL
+time: 0.4910000000108994 ms
+reward: -3.005
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 526
+TRAIN: GOAL
+time: 1.0600000000238197 ms
+reward: -12.007999999999997
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 527
+TRAIN: GOAL
+time: 0.47899999998435305 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 528
+TRAIN: GOAL
+time: 0.15799999999899228 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 529
+TRAIN: GOAL
+time: 0.33600000000433283 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 530
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 531
+TRAIN: GOAL
+time: 0.20100000000411455 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 532
+TRAIN: GOAL
+time: 0.4500000000007276 ms
+reward: -2.005
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 533
+TRAIN: GOAL
+time: 1.1169999999935953 ms
+reward: -12.010999999999997
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 534
+TRAIN: GOAL
+time: 1.2789999999824886 ms
+reward: -17.009000000000004
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 535
+TRAIN: GOAL
+time: 0.46000000000390173 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 536
+TRAIN: GOAL
+time: 0.6309999999984939 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 537
+TRAIN: GOAL
+time: 0.893999999988182 ms
+reward: -10.007
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 538
+TRAIN: GOAL
+time: 0.8980000000065047 ms
+reward: -9.008999999999999
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 539
+TRAIN: GOAL
+time: 0.3489999999999327 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 540
+TRAIN: GOAL
+time: 0.8049999999855117 ms
+reward: -6.01
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 541
+TRAIN: GOAL
+time: 0.683000000009315 ms
+reward: -8.005
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 542
+TRAIN: GOAL
+time: 0.37500000001955414 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 543
+TRAIN: GOAL
+time: 0.16899999999964166 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 544
+TRAIN: GOAL
+time: 2.283000000005586 ms
+reward: -6.009
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 545
+TRAIN: GOAL
+time: 1.0859999999865977 ms
+reward: -8.004000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 546
+TRAIN: GOAL
+time: 1.34599999998386 ms
+reward: -17.011000000000003
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 547
+TRAIN: GOAL
+time: 0.22200000000793807 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 548
+TRAIN: GOAL
+time: 0.4409999999950287 ms
+reward: -1.0059999999999998
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 549
+TRAIN: GOAL
+time: 2.2850000000005366 ms
+reward: -12.005999999999998
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 550
+TRAIN: GOAL
+time: 0.4870000000209984 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 551
+TRAIN: GOAL
+time: 0.21399999999971442 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 552
+TRAIN: GOAL
+time: 0.876000000005206 ms
+reward: -9.006
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 553
+TRAIN: GOAL
+time: 0.17299999998954263 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 554
+TRAIN: GOAL
+time: 0.40500000000065484 ms
+reward: -0.006
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 555
+TRAIN: GOAL
+time: 0.4619999999988522 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 556
+TRAIN: GOAL
+time: 0.6769999999960419 ms
+reward: -8.004000000000001
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 557
+TRAIN: GOAL
+time: 0.2550000000098862 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 558
+TRAIN: GOAL
+time: 0.6160000000079435 ms
+reward: -4.007000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 559
+TRAIN: GOAL
+time: 0.33600000000433283 ms
+reward: -5
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 560
+TRAIN: GOAL
+time: 0.49000000001342414 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 561
+TRAIN: GOAL
+time: 0.2889999999808879 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 562
+TRAIN: GOAL
+time: 0.6040000000098189 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 563
+TRAIN: GOAL
+time: 0.24499999997829036 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 564
+TRAIN: GOAL
+time: 0.4749999999944521 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 565
+TRAIN: GOAL
+time: 0.43099999999185457 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 566
+TRAIN: GOAL
+time: 1.1879999999848678 ms
+reward: -13.010999999999997
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 567
+TRAIN: GOAL
+time: 0.9170000000153777 ms
+reward: -14.003
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 568
+TRAIN: GOAL
+time: 0.15799999999899228 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 569
+TRAIN: GOAL
+time: 2.3270000000081836 ms
+reward: -26.02500000000002
+step: 52
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 570
+TRAIN: GOAL
+time: 0.42600000000447835 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 571
+TRAIN: GOAL
+time: 0.7270000000119126 ms
+reward: -8.005999999999998
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 572
+TRAIN: GOAL
+time: 0.40100000001075387 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 573
+TRAIN: GOAL
+time: 1.5659999999968477 ms
+reward: -1.0059999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 574
+TRAIN: GOAL
+time: 0.36500000001638 ms
+reward: -2.003
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 575
+TRAIN: GOAL
+time: 0.14899999999329339 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 576
+TRAIN: GOAL
+time: 0.3370000000018081 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 577
+TRAIN: GOAL
+time: 0.3990000000158034 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 578
+TRAIN: GOAL
+time: 0.16199999998889325 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 579
+TRAIN: GOAL
+time: 0.3439999999841348 ms
+reward: -5
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 580
+TRAIN: GOAL
+time: 0.7459999999923639 ms
+reward: -9.004999999999999
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 581
+TRAIN: GOAL
+time: 2.933000000012953 ms
+reward: -12.011999999999999
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 582
+TRAIN: GOAL
+time: 0.16899999999964166 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 583
+TRAIN: GOAL
+time: 2.048000000002048 ms
+reward: -24.017
+step: 42
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 584
+TRAIN: GOAL
+time: 0.5830000000059954 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 585
+TRAIN: GOAL
+time: 0.6840000000067903 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 586
+TRAIN: GOAL
+time: 0.44400000001587614 ms
+reward: -6.001
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 587
+TRAIN: GOAL
+time: 0.7820000000151595 ms
+reward: -3.0079999999999996
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 588
+TRAIN: GOAL
+time: 0.7429999999999382 ms
+reward: -11.003
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 589
+TRAIN: GOAL
+time: 1.0499999999922238 ms
+reward: -10.011
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 590
+TRAIN: GOAL
+time: 0.6620000000054915 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 591
+TRAIN: GOAL
+time: 0.8660000000020318 ms
+reward: -9.008
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 592
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 593
+TRAIN: GOAL
+time: 2.106999999995196 ms
+reward: -28.01800000000001
+step: 47
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 594
+TRAIN: GOAL
+time: 0.206999999988966 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 595
+TRAIN: GOAL
+time: 0.6910000000175387 ms
+reward: -3.0099999999999993
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 596
+TRAIN: GOAL
+time: 1.328000000000884 ms
+reward: -16.012
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 597
+TRAIN: GOAL
+time: 3.8240000000087093 ms
+reward: -12.012999999999998
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 598
+TRAIN: GOAL
+time: 0.22200000000793807 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 599
+TRAIN: GOAL
+time: 0.44199999999250394 ms
+reward: -6.001
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 600
+TRAIN: GOAL
+time: 0.1560000000040418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 601
+TRAIN: GOAL
+time: 0.42099999998868043 ms
+reward: -6.001
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 602
+TRAIN: GOAL
+time: 0.29500000002258275 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 603
+TRAIN: GOAL
+time: 0.44900000000325235 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 604
+TRAIN: GOAL
+time: 0.7950000000107593 ms
+reward: -7.008000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 605
+TRAIN: GOAL
+time: 0.7669999999961874 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 606
+TRAIN: GOAL
+time: 1.0989999999821976 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 607
+TRAIN: GOAL
+time: 1.553999999998723 ms
+reward: -17.014
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 608
+TRAIN: GOAL
+time: 0.5499999999756255 ms
+reward: -4.005
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 609
+TRAIN: GOAL
+time: 0.851999999980535 ms
+reward: -8.007999999999997
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 610
+TRAIN: GOAL
+time: 0.1699999999971169 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 611
+TRAIN: GOAL
+time: 0.545000000016671 ms
+reward: -2.0069999999999997
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 612
+TRAIN: GOAL
+time: 0.3209999999853608 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 613
+TRAIN: GOAL
+time: 1.0379999999940992 ms
+reward: -9.011999999999999
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 614
+TRAIN: GOAL
+time: 0.5649999999945976 ms
+reward: -3.0069999999999992
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 615
+TRAIN: GOAL
+time: 0.39200000000505497 ms
+reward: -1.005
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 616
+TRAIN: GOAL
+time: 0.6740000000036162 ms
+reward: -4.008
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 617
+TRAIN: GOAL
+time: 0.2550000000098862 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 618
+TRAIN: GOAL
+time: 0.968000000000302 ms
+reward: -8.011
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 619
+TRAIN: GOAL
+time: 0.24999999999408828 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 620
+TRAIN: GOAL
+time: 0.43300000001522676 ms
+reward: -1.0059999999999998
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 621
+TRAIN: GOAL
+time: 0.45599999998557905 ms
+reward: -2.005
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 622
+TRAIN: GOAL
+time: 0.7180000000062137 ms
+reward: -7.0070000000000014
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 623
+TRAIN: GOAL
+time: 0.8270000000152322 ms
+reward: -7.008000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 624
+TRAIN: GOAL
+time: 0.598999999994021 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 625
+TRAIN: GOAL
+time: 2.0309999999881256 ms
+reward: -6.0100000000000025
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 626
+TRAIN: GOAL
+time: 2.0399999999938245 ms
+reward: -10.006999999999998
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 627
+TRAIN: GOAL
+time: 0.4889999999875272 ms
+reward: -1.0059999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 628
+TRAIN: GOAL
+time: 0.9459999999990032 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 629
+TRAIN: GOAL
+time: 1.117000000022017 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 630
+TRAIN: GOAL
+time: 0.18099999999776628 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 631
+TRAIN: GOAL
+time: 0.27399999999033753 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 632
+TRAIN: GOAL
+time: 1.1419999999873198 ms
+reward: -15.007
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 633
+TRAIN: GOAL
+time: 1.1810000000025411 ms
+reward: -15.008
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 634
+TRAIN: GOAL
+time: 1.125000000001819 ms
+reward: -7.013000000000003
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 635
+TRAIN: GOAL
+time: 0.7850000000075852 ms
+reward: -6.007999999999999
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 636
+TRAIN: GOAL
+time: 1.216999999996915 ms
+reward: -8.002999999999998
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 637
+TRAIN: GOAL
+time: 2.161999999998443 ms
+reward: -11.011999999999997
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 638
+TRAIN: GOAL
+time: 1.5020000000163236 ms
+reward: -21.008999999999997
+step: 31
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 639
+TRAIN: GOAL
+time: 0.2610000000231594 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 640
+TRAIN: GOAL
+time: 1.2240000000076634 ms
+reward: -12.011999999999997
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 641
+TRAIN: GOAL
+time: 0.4289999999969041 ms
+reward: -7
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 642
+TRAIN: GOAL
+time: 0.15700000000151704 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 643
+TRAIN: GOAL
+time: 0.20799999998644125 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 644
+TRAIN: GOAL
+time: 1.151999999990494 ms
+reward: -15.007999999999997
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 645
+TRAIN: GOAL
+time: 0.29699999998911153 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 646
+TRAIN: GOAL
+time: 1.6310000000032687 ms
+reward: -22.013
+step: 36
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 647
+TRAIN: GOAL
+time: 0.18099999999776628 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 648
+TRAIN: GOAL
+time: 0.82499999999186 ms
+reward: -7.008000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 649
+TRAIN: GOAL
+time: 1.3449999999863849 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 650
+TRAIN: GOAL
+time: 0.618000000002894 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 651
+TRAIN: GOAL
+time: 0.7239999999910651 ms
+reward: -6.0070000000000014
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 652
+TRAIN: GOAL
+time: 2.5300000000072487 ms
+reward: -12.007999999999997
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 653
+TRAIN: GOAL
+time: 0.3300000000194814 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 654
+TRAIN: GOAL
+time: 1.3069999999970605 ms
+reward: -11.014
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 655
+TRAIN: GOAL
+time: 0.5960000000015953 ms
+reward: -3.0069999999999992
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 656
+TRAIN: GOAL
+time: 0.29999999998153726 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 657
+TRAIN: GOAL
+time: 0.2020000000015898 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 658
+TRAIN: GOAL
+time: 0.3010000000074342 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 659
+TRAIN: GOAL
+time: 1.1509999999930187 ms
+reward: -13.007999999999996
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 660
+TRAIN: GOAL
+time: 0.6750000000010914 ms
+reward: -4.008
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 661
+TRAIN: GOAL
+time: 2.3799999999880583 ms
+reward: -20.009
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 662
+TRAIN: GOAL
+time: 0.27900000000613545 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 663
+TRAIN: GOAL
+time: 0.8689999999944575 ms
+reward: -8.009
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 664
+TRAIN: GOAL
+time: 0.22400000000288856 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 665
+TRAIN: GOAL
+time: 0.15299999998319436 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 666
+TRAIN: GOAL
+time: 0.9610000000179753 ms
+reward: -6.013000000000002
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 667
+TRAIN: GOAL
+time: 0.5360000000109721 ms
+reward: -2.0069999999999997
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 668
+TRAIN: GOAL
+time: 0.3670000000113305 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 669
+TRAIN: GOAL
+time: 0.5510000000015225 ms
+reward: -3.0069999999999992
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 670
+TRAIN: GOAL
+time: 0.2619999999922129 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 671
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 672
+TRAIN: GOAL
+time: 0.42599999997605664 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 673
+TRAIN: GOAL
+time: 1.6400000000089676 ms
+reward: -9.006
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 674
+TRAIN: GOAL
+time: 0.18000000000029104 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 675
+TRAIN: GOAL
+time: 0.30699999999228567 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 676
+TRAIN: GOAL
+time: 0.7610000000113359 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 677
+TRAIN: GOAL
+time: 1.0320000000092477 ms
+reward: -4.005000000000001
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 678
+TRAIN: GOAL
+time: 0.1699999999971169 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 679
+TRAIN: GOAL
+time: 0.7740000000069358 ms
+reward: -7.008
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 680
+TRAIN: GOAL
+time: 0.17500000001291482 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 681
+TRAIN: GOAL
+time: 0.3119999999796619 ms
+reward: -0.004
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 682
+TRAIN: GOAL
+time: 1.4930000000106247 ms
+reward: -19.014
+step: 34
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 683
+TRAIN: GOAL
+time: 0.9300000000109776 ms
+reward: -13.004
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 684
+TRAIN: GOAL
+time: 0.413999999977932 ms
+reward: -4.002
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 685
+TRAIN: GOAL
+time: 0.30600000002323213 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 686
+TRAIN: GOAL
+time: 0.2920000000017353 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 687
+TRAIN: GOAL
+time: 0.89900000000398 ms
+reward: -9.008999999999999
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 688
+TRAIN: GOAL
+time: 0.8080000000063592 ms
+reward: -5.011000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 689
+TRAIN: GOAL
+time: 0.33400000000938235 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 690
+TRAIN: GOAL
+time: 0.6079999999997199 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 691
+TRAIN: GOAL
+time: 0.5590000000097461 ms
+reward: -5.004999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 692
+TRAIN: GOAL
+time: 0.2020000000015898 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 693
+TRAIN: GOAL
+time: 0.5039999999780775 ms
+reward: -6.003
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 694
+TRAIN: GOAL
+time: 0.3279999999961092 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 695
+TRAIN: GOAL
+time: 0.28100000000108594 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 696
+TRAIN: GOAL
+time: 0.7170000000087384 ms
+reward: -6.008000000000002
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 697
+TRAIN: GOAL
+time: 0.5099999999913507 ms
+reward: -7.002
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 698
+TRAIN: GOAL
+time: 0.5829999999775737 ms
+reward: -9.002
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 699
+TRAIN: GOAL
+time: 0.3350000000068576 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 700
+TRAIN: GOAL
+time: 0.30399999999985994 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 701
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 702
+TRAIN: GOAL
+time: 0.413999999977932 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 703
+TRAIN: GOAL
+time: 0.21499999999718966 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 704
+TRAIN: GOAL
+time: 0.16400000001226545 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 705
+TRAIN: GOAL
+time: 0.8719999999868833 ms
+reward: -6.01
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 706
+TRAIN: GOAL
+time: 0.9920000000249729 ms
+reward: -5.005
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 707
+TRAIN: GOAL
+time: 1.0239999999726024 ms
+reward: -6.0040000000000004
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 708
+TRAIN: GOAL
+time: 0.39799999998990643 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 709
+TRAIN: GOAL
+time: 0.42600000000447835 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 710
+TRAIN: GOAL
+time: 0.3370000000018081 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 711
+TRAIN: GOAL
+time: 0.28100000000108594 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 712
+TRAIN: GOAL
+time: 0.2389999999934389 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 713
+TRAIN: GOAL
+time: 0.4549999999881038 ms
+reward: -6.002000000000001
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 714
+TRAIN: GOAL
+time: 0.9210000000052787 ms
+reward: -12.007
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 715
+TRAIN: GOAL
+time: 0.549000000006572 ms
+reward: -4.005999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 716
+TRAIN: GOAL
+time: 0.1469999999983429 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 717
+TRAIN: GOAL
+time: 0.8839999999850079 ms
+reward: -13.006
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 718
+TRAIN: GOAL
+time: 0.25400000001241096 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 719
+TRAIN: GOAL
+time: 0.7589999999879637 ms
+reward: -7.007
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 720
+TRAIN: GOAL
+time: 0.33200000001443186 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 721
+TRAIN: GOAL
+time: 0.37599999998860767 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 722
+TRAIN: GOAL
+time: 0.14899999999329339 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 723
+TRAIN: GOAL
+time: 0.821000000001959 ms
+reward: -9.007000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 724
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 725
+TRAIN: GOAL
+time: 0.16599999997879422 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 726
+TRAIN: GOAL
+time: 0.41899999999372994 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 727
+TRAIN: GOAL
+time: 0.2800000000036107 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 728
+TRAIN: GOAL
+time: 0.19799999998326712 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 729
+TRAIN: GOAL
+time: 0.3279999999961092 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 730
+TRAIN: GOAL
+time: 0.23999999999091415 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 731
+TRAIN: GOAL
+time: 0.41000000001645276 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 732
+TRAIN: GOAL
+time: 0.47200000000202635 ms
+reward: -4.0040000000000004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 733
+TRAIN: GOAL
+time: 0.7180000000062137 ms
+reward: -8.006
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 734
+TRAIN: GOAL
+time: 1.0249999999984993 ms
+reward: -11.009999999999994
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 735
+TRAIN: GOAL
+time: 1.2499999999988631 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 736
+TRAIN: GOAL
+time: 1.508000000001175 ms
+reward: -17.015
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 737
+TRAIN: GOAL
+time: 0.2910000000042601 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 738
+TRAIN: GOAL
+time: 0.9060000000147284 ms
+reward: -6.010000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 739
+TRAIN: GOAL
+time: 1.478999999989128 ms
+reward: -13.005999999999997
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 740
+TRAIN: GOAL
+time: 0.9190000000103282 ms
+reward: -3.006
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 741
+TRAIN: GOAL
+time: 0.9119999999995798 ms
+reward: -9.009
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 742
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 743
+TRAIN: GOAL
+time: 0.24500000000671207 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 744
+TRAIN: GOAL
+time: 1.3260000000059335 ms
+reward: -15.012999999999995
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 745
+TRAIN: GOAL
+time: 0.1539999999806696 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 746
+TRAIN: GOAL
+time: 1.3580000000104064 ms
+reward: -18.010999999999996
+step: 30
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 747
+TRAIN: GOAL
+time: 0.2870000000143591 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 748
+TRAIN: GOAL
+time: 0.2850000000194086 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 749
+TRAIN: GOAL
+time: 0.6940000000099644 ms
+reward: -3.0079999999999996
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 750
+TRAIN: GOAL
+time: 0.7620000000088112 ms
+reward: -7.008000000000001
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 751
+TRAIN: GOAL
+time: 0.8100000000013097 ms
+reward: -7.009000000000002
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 752
+TRAIN: GOAL
+time: 0.28799999998341264 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 753
+TRAIN: GOAL
+time: 0.5979999999965457 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 754
+TRAIN: GOAL
+time: 0.42600000000447835 ms
+reward: -1.0059999999999993
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 755
+TRAIN: GOAL
+time: 1.069999999998572 ms
+reward: -17.005999999999997
+step: 24
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 756
+TRAIN: GOAL
+time: 0.24300000001176159 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 757
+TRAIN: GOAL
+time: 0.3240000000062082 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 758
+TRAIN: GOAL
+time: 0.3440000000125565 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 759
+TRAIN: GOAL
+time: 1.050999999989699 ms
+reward: -12.008999999999999
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 760
+TRAIN: GOAL
+time: 1.6150000000152431 ms
+reward: -10.004000000000001
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 761
+TRAIN: GOAL
+time: 0.2409999999883894 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 762
+TRAIN: GOAL
+time: 0.2389999999934389 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 763
+TRAIN: GOAL
+time: 0.4200000000196269 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 764
+TRAIN: GOAL
+time: 0.5099999999913507 ms
+reward: -2.0069999999999992
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 765
+TRAIN: GOAL
+time: 0.24299999998333988 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 766
+TRAIN: GOAL
+time: 0.8610000000146556 ms
+reward: -7.009000000000002
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 767
+TRAIN: GOAL
+time: 0.45399999999062857 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 768
+TRAIN: GOAL
+time: 0.8630000000096061 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 769
+TRAIN: GOAL
+time: 0.6729999999777192 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 770
+TRAIN: GOAL
+time: 0.17500000001291482 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 771
+TRAIN: GOAL
+time: 0.29000000000678483 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 772
+TRAIN: GOAL
+time: 0.3829999999993561 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 773
+TRAIN: GOAL
+time: 0.2959999999916363 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 774
+TRAIN: GOAL
+time: 0.19599999998831663 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 775
+TRAIN: GOAL
+time: 0.6730000000061409 ms
+reward: -5.008
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 776
+TRAIN: GOAL
+time: 0.19599999998831663 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 777
+TRAIN: GOAL
+time: 0.4679999999837037 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 778
+TRAIN: GOAL
+time: 1.2819999999749143 ms
+reward: -16.011999999999993
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 779
+TRAIN: GOAL
+time: 1.1399999999923693 ms
+reward: -13.011
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 780
+TRAIN: GOAL
+time: 0.830000000007658 ms
+reward: -10.005
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 781
+TRAIN: GOAL
+time: 0.3810000000044056 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 782
+TRAIN: GOAL
+time: 0.19900000000916407 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 783
+TRAIN: GOAL
+time: 0.4639999999938027 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 784
+TRAIN: GOAL
+time: 0.41899999999372994 ms
+reward: -3.004
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 785
+TRAIN: GOAL
+time: 0.28599999998846215 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 786
+TRAIN: GOAL
+time: 0.3370000000018081 ms
+reward: -1.0039999999999998
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 787
+TRAIN: GOAL
+time: 0.5189999999970496 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 788
+TRAIN: GOAL
+time: 0.9039999999913562 ms
+reward: -7.010999999999999
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 789
+TRAIN: GOAL
+time: 0.7889999999974862 ms
+reward: -8.007
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 790
+TRAIN: GOAL
+time: 0.15899999999646752 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 791
+TRAIN: GOAL
+time: 1.245000000011487 ms
+reward: -9.005
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 792
+TRAIN: GOAL
+time: 0.3519999999923584 ms
+reward: -2.003
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 793
+TRAIN: GOAL
+time: 0.9809999999959018 ms
+reward: -14.005999999999997
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 794
+TRAIN: GOAL
+time: 0.8290000000101827 ms
+reward: -9.006999999999998
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 795
+TRAIN: GOAL
+time: 0.5769999999927222 ms
+reward: -7.003
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 796
+TRAIN: GOAL
+time: 0.5880000000217933 ms
+reward: -7.003
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 797
+TRAIN: GOAL
+time: 0.9979999999814027 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 798
+TRAIN: GOAL
+time: 0.4959999999982756 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 799
+TRAIN: GOAL
+time: 0.49000000001342414 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 800
+TRAIN: GOAL
+time: 0.45399999999062857 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 801
+TRAIN: GOAL
+time: 0.8620000000121308 ms
+reward: -9.008000000000001
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 802
+TRAIN: GOAL
+time: 0.3309999999885349 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 803
+TRAIN: GOAL
+time: 0.5500000000040473 ms
+reward: -4.006
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 804
+TRAIN: GOAL
+time: 0.15500000000656655 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 805
+TRAIN: GOAL
+time: 0.3240000000062082 ms
+reward: -5
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 806
+TRAIN: GOAL
+time: 0.28599999998846215 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 807
+TRAIN: GOAL
+time: 0.47900000001277476 ms
+reward: -8.001000000000001
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 808
+TRAIN: GOAL
+time: 0.6199999999978445 ms
+reward: -7.005000000000002
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 809
+TRAIN: GOAL
+time: 0.5839999999750489 ms
+reward: -7.0040000000000004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 810
+TRAIN: GOAL
+time: 0.713999999987891 ms
+reward: -4.009
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 811
+TRAIN: GOAL
+time: 0.21200000000476393 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 812
+TRAIN: GOAL
+time: 0.5830000000059954 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 813
+TRAIN: GOAL
+time: 0.5369999999800257 ms
+reward: -5.005
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 814
+TRAIN: GOAL
+time: 1.1379999999974189 ms
+reward: -13.010999999999997
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 815
+TRAIN: GOAL
+time: 0.5719999999769243 ms
+reward: -5.004999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 816
+TRAIN: GOAL
+time: 0.19799999998326712 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 817
+TRAIN: GOAL
+time: 0.3519999999923584 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 818
+TRAIN: GOAL
+time: 5.466999999981681 ms
+reward: -42.02999999999999
+step: 73
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 819
+TRAIN: GOAL
+time: 1.7559999999718912 ms
+reward: -5.007999999999999
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 820
+TRAIN: GOAL
+time: 0.34799999997403575 ms
+reward: -1.0039999999999998
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 821
+TRAIN: GOAL
+time: 0.2000000000066393 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 822
+TRAIN: GOAL
+time: 0.15299999998319436 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 823
+TRAIN: GOAL
+time: 0.6580000000155906 ms
+reward: -4.008
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 824
+TRAIN: GOAL
+time: 0.2870000000143591 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 825
+TRAIN: GOAL
+time: 0.7729999999810389 ms
+reward: -7.008000000000003
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 826
+TRAIN: GOAL
+time: 0.46499999999127795 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 827
+TRAIN: GOAL
+time: 0.16899999999964166 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 828
+TRAIN: GOAL
+time: 0.1540000000090913 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 829
+TRAIN: GOAL
+time: 0.2479999999991378 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 830
+TRAIN: GOAL
+time: 0.5889999999908468 ms
+reward: -4.007
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 831
+TRAIN: GOAL
+time: 0.3279999999961092 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 832
+TRAIN: GOAL
+time: 0.15099999998824387 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 833
+TRAIN: GOAL
+time: 1.760999999987689 ms
+reward: -24.015
+step: 40
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 834
+TRAIN: GOAL
+time: 0.415000000003829 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 835
+TRAIN: GOAL
+time: 0.1560000000040418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 836
+TRAIN: GOAL
+time: 0.2340000000060627 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 837
+TRAIN: GOAL
+time: 0.29000000000678483 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 838
+TRAIN: GOAL
+time: 0.5900000000167438 ms
+reward: -3.007999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 839
+TRAIN: GOAL
+time: 0.41200000001140324 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 840
+TRAIN: GOAL
+time: 1.8239999999991596 ms
+reward: -27.01300000000001
+step: 41
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 841
+TRAIN: GOAL
+time: 0.2899999999783631 ms
+reward: -0.004
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 842
+TRAIN: GOAL
+time: 0.9419999999806805 ms
+reward: -8.01
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 843
+TRAIN: GOAL
+time: 0.2000000000066393 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 844
+TRAIN: GOAL
+time: 0.5280000000027485 ms
+reward: -3.0059999999999993
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 845
+TRAIN: GOAL
+time: 2.0260000000007494 ms
+reward: -12.008999999999999
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 846
+TRAIN: GOAL
+time: 0.3649999999879583 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 847
+TRAIN: GOAL
+time: 0.3609999999980573 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 848
+TRAIN: GOAL
+time: 1.0789999999758493 ms
+reward: -3.003
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 849
+TRAIN: GOAL
+time: 0.8219999999994343 ms
+reward: -0.005
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 850
+TRAIN: GOAL
+time: 1.2370000000032633 ms
+reward: -17.008999999999997
+step: 27
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 851
+TRAIN: GOAL
+time: 0.28800000001183435 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 852
+TRAIN: GOAL
+time: 0.6089999999971951 ms
+reward: -5.006000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 853
+TRAIN: GOAL
+time: 0.6239999999877455 ms
+reward: -9.002999999999998
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 854
+TRAIN: GOAL
+time: 0.28600000001688386 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 855
+TRAIN: GOAL
+time: 0.4619999999988522 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 856
+TRAIN: GOAL
+time: 0.5089999999938755 ms
+reward: -6.003
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 857
+TRAIN: GOAL
+time: 0.8919999999932315 ms
+reward: -11.007
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 858
+TRAIN: GOAL
+time: 0.503000000009024 ms
+reward: -2.0069999999999997
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 859
+TRAIN: GOAL
+time: 0.3260000000011587 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 860
+TRAIN: GOAL
+time: 0.7990000000006603 ms
+reward: -6.010000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 861
+TRAIN: GOAL
+time: 1.1869999999873926 ms
+reward: -13.011999999999997
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 862
+TRAIN: GOAL
+time: 1.0320000000092477 ms
+reward: -11.009999999999998
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 863
+TRAIN: GOAL
+time: 0.29499999999416104 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 864
+TRAIN: GOAL
+time: 0.3279999999961092 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 865
+TRAIN: GOAL
+time: 1.5790000000208693 ms
+reward: -20.013000000000005
+step: 34
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 866
+TRAIN: GOAL
+time: 0.42799999999942884 ms
+reward: -5.002
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 867
+TRAIN: GOAL
+time: 0.2940000000251075 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 868
+TRAIN: GOAL
+time: 0.8679999999969823 ms
+reward: -10.007
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 869
+TRAIN: GOAL
+time: 0.7090000000005148 ms
+reward: -2.010999999999999
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 870
+TRAIN: GOAL
+time: 0.34800000000245745 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 871
+TRAIN: GOAL
+time: 0.21200000000476393 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 872
+TRAIN: GOAL
+time: 0.983000000019274 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 873
+TRAIN: GOAL
+time: 0.3930000000025302 ms
+reward: -5.001
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 874
+TRAIN: GOAL
+time: 0.8589999999912834 ms
+reward: -5.011000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 875
+TRAIN: GOAL
+time: 2.645999999998594 ms
+reward: -11.021
+step: 33
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 876
+TRAIN: GOAL
+time: 0.3030000000023847 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 877
+TRAIN: GOAL
+time: 0.38200000000188084 ms
+reward: -0.005
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 878
+TRAIN: GOAL
+time: 0.35700000000815635 ms
+reward: -1.004
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 879
+TRAIN: GOAL
+time: 0.7220000000245363 ms
+reward: -8.004999999999999
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 880
+TRAIN: GOAL
+time: 0.5309999999951742 ms
+reward: -7.002000000000001
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 881
+TRAIN: GOAL
+time: 0.4479999999773554 ms
+reward: -2.005
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 882
+TRAIN: GOAL
+time: 0.3680000000088057 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 883
+TRAIN: GOAL
+time: 0.21300000000223918 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 884
+TRAIN: GOAL
+time: 0.6840000000067903 ms
+reward: -4.008
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 885
+TRAIN: GOAL
+time: 1.2150000000019645 ms
+reward: -13.011999999999997
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 886
+TRAIN: GOAL
+time: 0.24900000002503475 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 887
+TRAIN: GOAL
+time: 0.1539999999806696 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 888
+TRAIN: GOAL
+time: 0.3829999999993561 ms
+reward: -2.004
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 889
+TRAIN: GOAL
+time: 0.4590000000064265 ms
+reward: -5.003
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 890
+TRAIN: GOAL
+time: 0.7010000000207128 ms
+reward: -6.007000000000001
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 891
+TRAIN: GOAL
+time: 0.568000000015445 ms
+reward: -7.003
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 892
+TRAIN: GOAL
+time: 0.759999999985439 ms
+reward: -14.001
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 893
+TRAIN: GOAL
+time: 0.38200000000188084 ms
+reward: -5.0009999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 894
+TRAIN: GOAL
+time: 0.6109999999921456 ms
+reward: -8.003
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 895
+TRAIN: GOAL
+time: 0.6360000000142918 ms
+reward: -7.004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 896
+TRAIN: GOAL
+time: 0.6419999999991433 ms
+reward: -7.004000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 897
+TRAIN: GOAL
+time: 0.5629999999996471 ms
+reward: -2.0079999999999996
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 898
+TRAIN: GOAL
+time: 2.0389999999963493 ms
+reward: -9.009
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 899
+TRAIN: GOAL
+time: 0.5590000000097461 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 900
+TRAIN: GOAL
+time: 0.1719999999920674 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 901
+TRAIN: GOAL
+time: 0.3140000000030341 ms
+reward: -1.0029999999999997
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 902
+TRAIN: GOAL
+time: 0.3719999999987067 ms
+reward: -4.0009999999999994
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 903
+TRAIN: GOAL
+time: 0.17299999998954263 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 904
+TRAIN: GOAL
+time: 0.2410000000168111 ms
+reward: -1.001
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 905
+TRAIN: GOAL
+time: 1.8019999999978609 ms
+reward: -5.007
+step: 13
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 906
+TRAIN: GOAL
+time: 0.29299999999921056 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 907
+TRAIN: GOAL
+time: 0.29499999999416104 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 908
+TRAIN: GOAL
+time: 0.618000000002894 ms
+reward: -6.004
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 909
+TRAIN: GOAL
+time: 0.18400000001861372 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 910
+TRAIN: GOAL
+time: 0.4519999999956781 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 911
+TRAIN: GOAL
+time: 0.8499999999855845 ms
+reward: -11.004999999999999
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 912
+TRAIN: GOAL
+time: 0.160999999991418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 913
+TRAIN: GOAL
+time: 0.2550000000098862 ms
+reward: -1.0019999999999998
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 914
+TRAIN: GOAL
+time: 1.073999999988473 ms
+reward: -6.015000000000001
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 915
+TRAIN: GOAL
+time: 1.5070000000036998 ms
+reward: -12.015999999999998
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 916
+TRAIN: GOAL
+time: 0.2619999999922129 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 917
+TRAIN: GOAL
+time: 0.30000000000995897 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 918
+TRAIN: GOAL
+time: 0.24900000002503475 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 919
+TRAIN: GOAL
+time: 0.30699999999228567 ms
+reward: -1.003
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 920
+TRAIN: GOAL
+time: 0.9950000000173986 ms
+reward: -12.008
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 921
+TRAIN: GOAL
+time: 0.3419999999891843 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 922
+TRAIN: GOAL
+time: 0.28600000001688386 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 923
+TRAIN: GOAL
+time: 0.4710000000045511 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 924
+TRAIN: GOAL
+time: 0.25400000001241096 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 925
+TRAIN: GOAL
+time: 0.8239999999943848 ms
+reward: -10.004999999999997
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 926
+TRAIN: GOAL
+time: 0.40500000000065484 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 927
+TRAIN: GOAL
+time: 1.8750000000125056 ms
+reward: -6.008000000000002
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 928
+TRAIN: GOAL
+time: 0.522000000017897 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 929
+TRAIN: GOAL
+time: 0.35900000000310683 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 930
+TRAIN: GOAL
+time: 0.15799999999899228 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 931
+TRAIN: GOAL
+time: 0.15100000001666558 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 932
+TRAIN: GOAL
+time: 0.641000000001668 ms
+reward: -7.004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 933
+TRAIN: GOAL
+time: 0.34599999997908526 ms
+reward: -2.002
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 934
+TRAIN: GOAL
+time: 0.27900000000613545 ms
+reward: -1.002
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 935
+TRAIN: GOAL
+time: 1.576999999997497 ms
+reward: -5.005
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 936
+TRAIN: GOAL
+time: 1.5600000000119962 ms
+reward: -9.015999999999998
+step: 26
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 937
+TRAIN: GOAL
+time: 0.4849999999976262 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 938
+TRAIN: GOAL
+time: 0.40100000001075387 ms
+reward: -3.0029999999999997
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 939
+TRAIN: GOAL
+time: 0.16200000001731496 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 940
+TRAIN: GOAL
+time: 0.3560000000106811 ms
+reward: -2.0029999999999997
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 941
+TRAIN: GOAL
+time: 1.1989999999855172 ms
+reward: -15.008999999999997
+step: 25
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 942
+TRAIN: GOAL
+time: 0.44900000000325235 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 943
+TRAIN: GOAL
+time: 0.48800000001847366 ms
+reward: -3.0049999999999994
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 944
+TRAIN: GOAL
+time: 0.15699999997309533 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 945
+TRAIN: GOAL
+time: 0.9189999999819065 ms
+reward: -8.010000000000002
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 946
+TRAIN: GOAL
+time: 0.3810000000044056 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 947
+TRAIN: GOAL
+time: 0.25100000001998524 ms
+reward: -2.001
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 948
+TRAIN: GOAL
+time: 1.474999999999227 ms
+reward: -18.013
+step: 32
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 949
+TRAIN: GOAL
+time: 0.5250000000103228 ms
+reward: -4.004999999999999
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 950
+TRAIN: GOAL
+time: 0.6930000000124892 ms
+reward: -7.006000000000001
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 951
+TRAIN: GOAL
+time: 0.160999999991418 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 952
+TRAIN: GOAL
+time: 1.0989999999821976 ms
+reward: -16.004999999999995
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 953
+TRAIN: GOAL
+time: 0.7860000000050604 ms
+reward: -6.0070000000000014
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 954
+TRAIN: GOAL
+time: 0.6379999999808206 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 955
+TRAIN: GOAL
+time: 0.47200000000202635 ms
+reward: -6.0009999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 956
+TRAIN: GOAL
+time: 2.389000000022179 ms
+reward: -15.006999999999996
+step: 23
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 957
+TRAIN: GOAL
+time: 1.4349999999865304 ms
+reward: -14.014
+step: 29
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 958
+TRAIN: GOAL
+time: 0.26700000000801083 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 959
+TRAIN: GOAL
+time: 0.9159999999894808 ms
+reward: -12.004999999999997
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 960
+TRAIN: GOAL
+time: 1.096999999987247 ms
+reward: -8.013000000000002
+step: 22
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 961
+TRAIN: GOAL
+time: 0.8610000000146556 ms
+reward: -6.008
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 962
+TRAIN: GOAL
+time: 0.7930000000158088 ms
+reward: -8.006
+step: 15
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 963
+TRAIN: GOAL
+time: 0.7900000000233831 ms
+reward: -2.0039999999999996
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 964
+TRAIN: GOAL
+time: 1.2419999999906395 ms
+reward: -7.008000000000002
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 965
+TRAIN: GOAL
+time: 0.3189999999904103 ms
+reward: -4
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 966
+TRAIN: GOAL
+time: 0.6539999999972679 ms
+reward: -5.005999999999999
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 967
+TRAIN: GOAL
+time: 0.4529999999931533 ms
+reward: -2.0049999999999994
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 968
+TRAIN: GOAL
+time: 0.5589999999813244 ms
+reward: -5.0040000000000004
+step: 10
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 969
+TRAIN: GOAL
+time: 0.44900000000325235 ms
+reward: -7
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 970
+TRAIN: GOAL
+time: 0.2660000000105356 ms
+reward: -3
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 971
+TRAIN: GOAL
+time: 0.3560000000106811 ms
+reward: -3.002
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 972
+TRAIN: GOAL
+time: 0.6070000000022446 ms
+reward: -6.004
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 973
+TRAIN: GOAL
+time: 1.056000000005497 ms
+reward: -8.011
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 974
+TRAIN: GOAL
+time: 1.0000000000047748 ms
+reward: -9.008
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 975
+TRAIN: GOAL
+time: 0.26800000000548607 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 976
+TRAIN: GOAL
+time: 1.7909999999972115 ms
+reward: -6.007
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 977
+TRAIN: GOAL
+time: 0.22699999999531428 ms
+reward: -2
+step: 3
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 978
+TRAIN: GOAL
+time: 1.0130000000003747 ms
+reward: -2.006
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 979
+TRAIN: GOAL
+time: 0.59500000000412 ms
+reward: -0.003
+step: 4
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 980
+TRAIN: GOAL
+time: 0.9050000000172531 ms
+reward: -9.006
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 981
+TRAIN: GOAL
+time: 0.17300000001796434 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 982
+TRAIN: GOAL
+time: 0.6429999999966185 ms
+reward: -6.005000000000001
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 983
+TRAIN: GOAL
+time: 0.9499999999889042 ms
+reward: -12.007
+step: 20
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 984
+TRAIN: GOAL
+time: 0.38000000000693035 ms
+reward: -1.004
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 985
+TRAIN: GOAL
+time: 0.4619999999988522 ms
+reward: -4.003
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 986
+TRAIN: GOAL
+time: 0.7310000000018135 ms
+reward: -1.0039999999999996
+step: 6
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 987
+TRAIN: GOAL
+time: 0.82499999999186 ms
+reward: -1.0049999999999994
+step: 7
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 988
+TRAIN: GOAL
+time: 0.9780000000034761 ms
+reward: -8.008000000000001
+step: 17
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 989
+TRAIN: GOAL
+time: 0.922000000002754 ms
+reward: -10.007
+step: 18
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 990
+TRAIN: GOAL
+time: 0.6050000000072941 ms
+reward: -5.004999999999999
+step: 11
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 991
+TRAIN: GOAL
+time: 1.624000000020942 ms
+reward: -21.012000000000004
+step: 34
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 992
+TRAIN: GOAL
+time: 0.8079999999779375 ms
+reward: -7.008
+step: 16
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 993
+TRAIN: GOAL
+time: 1.046999999999798 ms
+reward: -9.011000000000003
+step: 21
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 994
+TRAIN: GOAL
+time: 0.457000000011476 ms
+reward: -3.0039999999999996
+step: 8
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 995
+TRAIN: GOAL
+time: 1.3649999999927331 ms
+reward: -4.004
+step: 9
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 996
+TRAIN: GOAL
+time: 0.33899999999675856 ms
+reward: -3.001
+step: 5
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 997
+TRAIN: GOAL
+time: 1.4119999999877564 ms
+reward: -17.000999999999998
+step: 19
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 998
+TRAIN: GOAL
+time: 1.2279999999975644 ms
+reward: -7.004
+step: 12
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 999
+TRAIN: GOAL
+time: 0.1769999999794436 ms
+reward: -1
+step: 2
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+
+EPISODE 1000
+TRAIN: GOAL
+time: 0.729000000006863 ms
+reward: -9.004
+step: 14
+VALIDATE: GOAL
+reward: -0.003
+step: 4
+

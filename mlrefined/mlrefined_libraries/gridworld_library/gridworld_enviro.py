@@ -118,6 +118,10 @@ class environment():
         if 'start' in args:
             self.start = args['start']
 
+        if 'seed' in args:
+            self.seed = args['seed']
+            np.random.seed(self.seed)
+
         print(self.start)
 
         hazard_csvname = location + '/gridworld_levels/' + args["world_size"] + '_' + args["world_type"] + '_hazards.csv'

@@ -5,6 +5,7 @@ import pandas as pd
 import time
 import copy
 import os, errno
+import pickle
 
 class learner():
     def __init__(self,**args):
@@ -21,20 +22,24 @@ class learner():
         self.validation_episodes = 1
         self.training_start_schedule = []
         self.validation_start_schedule = []
+
+        if 'exploit_param' in args:
+            self.exploit_param = round(1 - args['exploit_param'],1)
+            self.action_method = 'exploit'
            
         # create start schedule for training / validation
         self.training_start_schedule = self.grid.training_start_schedule[:self.training_episodes]
         self.validation_start_schedule = self.grid.validation_start_schedule[:self.validation_episodes]
 
         self.start_point = []
-        self.iter = args['iter']
+        
         
         if self.grid.isEight:
             direction = 8
         else:
             direction = 4
         
-        directory = "result/" + self.name + "_" + str(self.training_episodes) + "episode_" + str(direction) + "direction_rand1_0.5epsilon"
+        directory = "result/" + self.name
 
         try:
             os.makedirs(directory)
@@ -42,16 +47,43 @@ class learner():
             if e.errno != errno.EEXIST:
                 raise
 
-        directory += "/" + str(self.iter+1)
+        directory += "/" + str(direction) + "direction"
+
         try:
             os.makedirs(directory)
         except OSError as e:
             if e.errno != errno.EEXIST:
                 raise
+
+        if 'iter' in args:
+            self.iter = args['iter']
+            directory += "/" + str(self.training_episodes) + "episode_seedtime_" + str(args['exploit_param']) + "epsilon"
+            try:
+                os.makedirs(directory)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+
+            directory += "/" + str(self.iter+1)
+            try:
+                os.makedirs(directory)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+
+        if self.grid.seed:
+            directory += "/" + str(self.training_episodes) + "episode_seed" + str(self.grid.seed) + "_" + str(args['exploit_param']) + "epsilon"
+            try:
+                os.makedirs(directory)
+            except OSError as e:
+                if e.errno != errno.EEXIST:
+                    raise
+
 
         self.out = open(directory + "/report.txt", 'w+')
         self.out_stat = open(directory + "/stat.txt", 'w+')
         self.out_csv = open(directory + "/report.csv", 'w+')
+        self.out_model = open(directory + "/Q.model", 'wb')
 
         if 'start' in args:
             self.start_point = args['start']
@@ -114,7 +146,10 @@ class learner():
             episode_history = []      # container for storing this episode's journey
             total_episode_reward = 0
 
-            print('EPISODE ' + str(n+1))
+            if self.grid.seed:    
+                print(self.name + ' ' + str(self.grid.isEight) + ' SEED ' + str(self.grid.seed) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
+            if self.iter:
+                print(self.name + ' ' + str(self.grid.isEight) + ' ITER ' + str(self.iter+1) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
             self.out.write('EPISODE ' + str(n+1) + '\n')
             self.out_csv.write(str(n+1) + ',')
             self.out.write('TRAIN: ')
@@ -208,9 +243,13 @@ class learner():
         self.out_stat.write('average step: ' + str(mean(self.step_val)) + '\n')
         self.out_stat.write('goal percentage: ' + str(self.num_goal_val/self.training_episodes*100) + '%\n')
 
+        # self.out_model.write(str(self.Q))
+        pickle.dump(Q, self.out_model)
+
         self.out.close()
         self.out_csv.close()
         self.out_stat.close()
+        self.out_model.close()
             
         print ('q-learning algorithm complete')
        

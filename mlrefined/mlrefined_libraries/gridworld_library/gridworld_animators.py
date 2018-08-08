@@ -11,18 +11,26 @@ from IPython.display import clear_output
 
 import matplotlib.lines as mlines
 from mpl_toolkits.mplot3d import Axes3D
+import pickle
 
 class animator():
     ################## animation functions ##################
     ### animate validation runs ###
     def animate_validation_runs(self,**args):
         gridworld = args['gridworld']
-        learner = args['learner']
+        
         starting_locations = args['starting_locations']
         
+        if 'learner' in args:
+            learner = args['learner']
+            Q = learner.Q
+        else:
+            f = open(args['q'], 'rb')
+            Q = pickle.load(f)
+
         # make local copies of input
         grid = gridworld
-        Q = learner.Q
+        
         starting_locs = starting_locations
         
         # initialize figure
