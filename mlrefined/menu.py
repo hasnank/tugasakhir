@@ -66,19 +66,22 @@ class menu():
         print ('the goal reward is preset to ' + str(small_maze.goal_reward))
         
         # run q-learning
-        for i in range(5):
-            # create an instance of the q-learner
-            for val in [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]:
-                qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name, iter = i, exploit_param = val)
+        # for i in range(5):
+        #     # create an instance of the q-learner
+        #     for val in [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]:
+        #         qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name, iter = i, exploit_param = val)
 
-                qlearner.train(verbose = False, action_method = 'exploit', validate = True)
+        #         qlearner.train(verbose = False, action_method = 'exploit', validate = True)
     
-        # create instance of animator
-        # animator = lib.gridworld_animators.animator()
+        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start, name = self.name)
 
-        # ### animate training runs of one algorithm ###
-        # # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
-        # animator.animate_validation_runs(gridworld = small_maze, learner = qlearner, starting_locations = [self.start])
+        qlearner.train(verbose = False, action_method = 'exploit', validate = True)
+        # create instance of animator
+        animator = lib.gridworld_animators.animator()
+
+        ### animate training runs of one algorithm ###
+        # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
+        animator.animate_validation_runs(gridworld = small_maze, learner = qlearner, starting_locations = [self.start])
 
     def val(self, event):
         plt.style.use('ggplot')
@@ -109,7 +112,7 @@ class menu():
 
         small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.width, goal=self.goal, start=self.start, training_episodes = 1000, isEight = self.isEight)
 
-        file = askopenfilename(parent=root, initialdir = dirr, title='Choose a model file')
+        file = askopenfilename(parent=root, initialdir = dirr, title='Choose a model file', filetypes = [("model files","*.model")])
         
         # create instance of animator
         animator = lib.gridworld_animators.animator()

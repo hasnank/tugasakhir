@@ -70,14 +70,21 @@ class learner():
             except OSError as e:
                 if e.errno != errno.EEXIST:
                     raise
-
-        if self.grid.seed:
-            directory += "/" + str(self.training_episodes) + "episode_seed" + str(self.grid.seed) + "_" + str(args['exploit_param']) + "epsilon"
+        else:
+            directory += "/" + str(self.training_episodes) + "episode_seedtime_" + str(self.exploit_param) + "epsilon"
             try:
                 os.makedirs(directory)
             except OSError as e:
                 if e.errno != errno.EEXIST:
                     raise
+
+        # if self.grid.seed:
+        #     directory += "/" + str(self.training_episodes) + "episode_seed" + str(self.grid.seed) + "_" + str(args['exploit_param']) + "epsilon"
+        #     try:
+        #         os.makedirs(directory)
+        #     except OSError as e:
+        #         if e.errno != errno.EEXIST:
+        #             raise
 
 
         self.out = open(directory + "/report.txt", 'w+')
@@ -146,10 +153,10 @@ class learner():
             episode_history = []      # container for storing this episode's journey
             total_episode_reward = 0
 
-            if self.grid.seed:    
-                print(self.name + ' ' + str(self.grid.isEight) + ' SEED ' + str(self.grid.seed) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
-            if self.iter:
-                print(self.name + ' ' + str(self.grid.isEight) + ' ITER ' + str(self.iter+1) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
+            # if self.grid.seed:    
+            #     print(self.name + ' ' + str(self.grid.isEight) + ' SEED ' + str(self.grid.seed) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
+            # if self.iter:
+            #     print(self.name + ' ' + str(self.grid.isEight) + ' ITER ' + str(self.iter+1) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
             self.out.write('EPISODE ' + str(n+1) + '\n')
             self.out_csv.write(str(n+1) + ',')
             self.out.write('TRAIN: ')
