@@ -83,25 +83,25 @@ class menu():
         # animator.animate_training_runs(gridworld = small_maze, learner = qlearner,episodes = [0,999])
         animator.animate_validation_runs(gridworld = small_maze, learner = qlearner, starting_locations = [self.start])
 
-    def val(self, event):
-        plt.style.use('ggplot')
+    # def val(self, event):
+    #     plt.style.use('ggplot')
 
-        small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.height, goal=self.goal)
+    #     small_maze = lib.gridworld_enviro.environment(world_size = self.name, world_type = 'maze', height=self.height, width=self.height, goal=self.goal)
 
-        # create an instance of the q-learner
-        qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start)
+    #     # create an instance of the q-learner
+    #     qlearner = lib.gridworld_qlearn.learner(gridworld = small_maze, start = self.start)
         
-        # run q-learning
-        qlearner.train(validate=True, verbose = False, action_method = 'exploit', training_episodes = 1000)
-        training_reward = qlearner.training_reward
+    #     # run q-learning
+    #     qlearner.train(validate=True, verbose = False, action_method = 'exploit', training_episodes = 1000)
+    #     training_reward = qlearner.training_reward
 
-        fig = plt.figure(figsize = (12,5))
-        ax = fig.add_subplot(1,1,1)
+    #     fig = plt.figure(figsize = (12,5))
+    #     ax = fig.add_subplot(1,1,1)
 
-        ax.plot(training_reward)
-        ax.set_xlabel('episode')
-        ax.set_ylabel('total reward')
-        plt.show()    
+    #     ax.plot(training_reward)
+    #     ax.set_xlabel('episode')
+    #     ax.set_ylabel('total reward')
+    #     plt.show()    
 
     def animateModel(self, event):
         dirr = os.getcwd() + '/result/' + self.name

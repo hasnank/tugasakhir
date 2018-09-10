@@ -32,7 +32,7 @@ class environment():
         self.height = 0
         self.num_episodes = 0
         self.training_episodes = 0
-        self.validation_epislodes = 0
+        self.validation_episodes = 0
         self.world_size = ''
         self.world_type = ''
         
