@@ -137,6 +137,8 @@ class learner():
         self.time_per_episode = []
         self.Q_history = []
         Q = np.zeros((self.grid.width*self.grid.height,len(self.grid.action_choices)))
+        returns = np.zeros((self.grid.width*self.grid.height,len(self.grid.action_choices),self.training_episodes))
+        counter = np.zeros((self.grid.width*self.grid.height,len(self.grid.action_choices)))
         self.Q_history.append(copy.deepcopy(Q))  # save current Q (for visualization of progress)
 
         self.out_csv.write('episode,train goal?,train time (ms),train reward,train step,val goal?,val reward,val step\n')
@@ -146,12 +148,15 @@ class learner():
             start = time.clock()
             
             # pick this episode's starting position
-            grid.agent = self.start_point
+            grid.agent = self.training_start_schedule[n]
             # print(grid.agent)
 
             # update Q matrix while loc != goal
             episode_history = []      # container for storing this episode's journey
+            action_history = []
+            episode_history_done = []
             total_episode_reward = 0
+            reward_before = []
 
             # if self.grid.seed:    
             #     print(self.name + ' ' + str(self.grid.isEight) + ' SEED ' + str(self.grid.seed) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
@@ -179,6 +184,7 @@ class learner():
                     
                 # get action
                 a_k = grid.get_action(method = self.action_method,Q = Q,exploit_param = self.exploit_param)
+                action_history.append(a_k)
                 
                 # move based on this action
                 s_k = grid.get_movin(action = a_k)
@@ -186,16 +192,40 @@ class learner():
                 # get reward     
                 r_k = grid.get_reward(state_index = s_k)          
                 
-                # update Q
-                Q[s_k_1,a_k] = r_k + gamma*max(Q[s_k,:])
+                # # update Q
+                # Q[s_k_1,a_k] = r_k + gamma*max(Q[s_k,:])
                     
                 # update current location of agent 
                 grid.agent = grid.state_index_to_tuple(state_index = s_k)
                 
                 # update training reward
+                reward_before.append(total_episode_reward)
                 total_episode_reward+=r_k
-
+                
                 step += 1
+
+            for step2 in range(len(action_history)):
+                s_k_1 = grid.state_tuple_to_index(episode_history[step2])
+                    
+                # get action
+                a_k = action_history[step2]
+                                  
+                
+                if (str(s_k_1) + str(a_k)) not in episode_history_done:
+                    G = total_episode_reward - reward_before[step2]
+                    print('G: ' + str(G))
+                    
+                    returns[s_k_1,a_k,n] = G
+                    counter[s_k_1,a_k] += 1
+
+                    Q[s_k_1,a_k] = (sum(returns[s_k_1,a_k,:]))/counter[s_k_1,a_k]
+                    print('Q: ' + str(Q[s_k_1,a_k]))
+                    
+                    episode_history_done.append(str(s_k_1) + str(a_k))
+                    # print(str(s_k_1) + str(a_k))
+                else:
+                    print('udah')
+
 
             # print out update if verbose set to True
             if 'verbose' in args:
