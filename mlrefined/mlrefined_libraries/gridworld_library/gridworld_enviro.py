@@ -122,16 +122,11 @@ class environment():
             self.seed = args['seed']
             np.random.seed(self.seed)
 
-        print(self.start)
-
+        
         hazard_csvname = location + '/gridworld_levels/' + args["world_size"] + '_' + args["world_type"] + '_hazards.csv'
-        # goal_csvname = location + '/gridworld_levels/' + args["world_size"] + '_' + args["world_type"] + '_goal.csv'
-        # start_csvname = location + '/gridworld_levels/' + args["world_size"] + '_' + args["world_type"] + '_start_schedule.csv'
         
         # load in preset hazard locations from csv
         self.hazards = pd.read_csv(hazard_csvname,header = None)
-        # self.goal = pd.read_csv(goal_csvname,header = None)
-        # self.agent = pd.read_csv(start_csvname,header = None)
            
         # initialize hazards locations
         tempHazard = []
@@ -140,22 +135,9 @@ class environment():
             self.grid[block[0]][block[1]] = 1   
             tempHazard.append(block)
 
-        print(self.height, self.width)
-        # tempGoal = []
-        # for i in range(len(self.goal)):
-        #     block = list(self.goal.iloc[i])
-        #     tempGoal.append(block)
-
-        # tempStart = []
-        # for i in range(len(self.agent)):
-        #     block = list(self.agent.iloc[i])
-        #     tempStart.append(block)
-
         # initialize hazards location
         self.hazards = tempHazard
-        # self.goal = tempGoal
-        # self.agent = tempStart
-
+        
         ### initialize state index, Q matrix, and action choices ###
         # initialize action choices
         self.isEight = args['isEight']

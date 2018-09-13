@@ -77,15 +77,7 @@ class learner():
             except OSError as e:
                 if e.errno != errno.EEXIST:
                     raise
-
-        # if self.grid.seed:
-        #     directory += "/" + str(self.training_episodes) + "episode_seed" + str(self.grid.seed) + "_" + str(args['exploit_param']) + "epsilon"
-        #     try:
-        #         os.makedirs(directory)
-        #     except OSError as e:
-        #         if e.errno != errno.EEXIST:
-        #             raise
-
+        
 
         self.out = open(directory + "/report.txt", 'w+')
         self.out_stat = open(directory + "/stat.txt", 'w+')
@@ -157,11 +149,7 @@ class learner():
             episode_history_done = []
             total_episode_reward = 0
             reward_before = []
-
-            # if self.grid.seed:    
-            #     print(self.name + ' ' + str(self.grid.isEight) + ' SEED ' + str(self.grid.seed) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
-            # if self.iter:
-            #     print(self.name + ' ' + str(self.grid.isEight) + ' ITER ' + str(self.iter+1) + ' ex_par ' + str(self.exploit_param) + ' EPISODE ' + str(n+1))
+            
             self.out.write('EPISODE ' + str(n+1) + '\n')
             self.out_csv.write(str(n+1) + ',')
             self.out.write('TRAIN: ')
@@ -192,9 +180,7 @@ class learner():
                 # get reward     
                 r_k = grid.get_reward(state_index = s_k)          
                 
-                # # update Q
-                # Q[s_k_1,a_k] = r_k + gamma*max(Q[s_k,:])
-                    
+                   
                 # update current location of agent 
                 grid.agent = grid.state_index_to_tuple(state_index = s_k)
                 
@@ -207,25 +193,20 @@ class learner():
             for step2 in range(len(action_history)):
                 s_k_1 = grid.state_tuple_to_index(episode_history[step2])
                     
-                # get action
                 a_k = action_history[step2]
-                                  
+                                 
                 
                 if (str(s_k_1) + str(a_k)) not in episode_history_done:
                     G = total_episode_reward - reward_before[step2]
-                    print('G: ' + str(G))
-                    
+                                        
                     returns[s_k_1,a_k,n] = G
                     counter[s_k_1,a_k] += 1
 
                     Q[s_k_1,a_k] = (sum(returns[s_k_1,a_k,:]))/counter[s_k_1,a_k]
-                    print('Q: ' + str(Q[s_k_1,a_k]))
                     
                     episode_history_done.append(str(s_k_1) + str(a_k))
-                    # print(str(s_k_1) + str(a_k))
-                else:
-                    print('udah')
-
+                   
+                
 
             # print out update if verbose set to True
             if 'verbose' in args:
@@ -240,10 +221,7 @@ class learner():
             self.training_reward.append(total_episode_reward)
             self.Q_history.append(copy.deepcopy(Q))  # save current Q (for visualization of progress)
 
-            # print('time: ' + str((stop-start)*1000) + ' ms')
-            # print('reward: ' + str(total_episode_reward))
-            # print('step: ' + str(len(episode_history)))
-
+         
             self.out.write('\n')
             self.out.write('time: ' + str((stop-start)*1000) + ' ms\n')
             self.out.write('reward: ' + str(total_episode_reward) + '\n')
@@ -280,7 +258,6 @@ class learner():
         self.out_stat.write('average step: ' + str(mean(self.step_val)) + '\n')
         self.out_stat.write('goal percentage: ' + str(self.num_goal_val/self.training_episodes*100) + '%\n')
 
-        # self.out_model.write(str(self.Q))
         pickle.dump(Q, self.out_model)
 
         self.out.close()
